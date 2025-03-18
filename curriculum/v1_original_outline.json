@@ -1,0 +1,1451 @@
+[
+  {
+    "id": "V1-001",
+    "source": "original V1 161-topic outline retrieved from prior conversation",
+    "part": 1,
+    "part_title": "The Map",
+    "number": 1,
+    "topic": "What Actually Is an LLM?",
+    "chapter": "CH-01"
+  },
+  {
+    "id": "V1-002",
+    "source": "original V1 161-topic outline retrieved from prior conversation",
+    "part": 1,
+    "part_title": "The Map",
+    "number": 2,
+    "topic": "Training vs Inference",
+    "chapter": "CH-02"
+  },
+  {
+    "id": "V1-003",
+    "source": "original V1 161-topic outline retrieved from prior conversation",
+    "part": 1,
+    "part_title": "The Map",
+    "number": 3,
+    "topic": "The Entire LLM Technology Stack",
+    "chapter": "CH-03"
+  },
+  {
+    "id": "V1-004",
+    "source": "original V1 161-topic outline retrieved from prior conversation",
+    "part": 2,
+    "part_title": "The Math You Actually Need",
+    "number": 4,
+    "topic": "Scalars, Vectors, Matrices and Tensors",
+    "chapter": "CH-05"
+  },
+  {
+    "id": "V1-005",
+    "source": "original V1 161-topic outline retrieved from prior conversation",
+    "part": 2,
+    "part_title": "The Math You Actually Need",
+    "number": 5,
+    "topic": "Geometry of Vectors",
+    "chapter": "CH-06"
+  },
+  {
+    "id": "V1-006",
+    "source": "original V1 161-topic outline retrieved from prior conversation",
+    "part": 2,
+    "part_title": "The Math You Actually Need",
+    "number": 6,
+    "topic": "Probability for Language Models",
+    "chapter": "CH-07"
+  },
+  {
+    "id": "V1-007",
+    "source": "original V1 161-topic outline retrieved from prior conversation",
+    "part": 2,
+    "part_title": "The Math You Actually Need",
+    "number": 7,
+    "topic": "Softmax",
+    "chapter": "CH-07"
+  },
+  {
+    "id": "V1-008",
+    "source": "original V1 161-topic outline retrieved from prior conversation",
+    "part": 2,
+    "part_title": "The Math You Actually Need",
+    "number": 8,
+    "topic": "Calculus Without Pain",
+    "chapter": "CH-08"
+  },
+  {
+    "id": "V1-009",
+    "source": "original V1 161-topic outline retrieved from prior conversation",
+    "part": 2,
+    "part_title": "The Math You Actually Need",
+    "number": 9,
+    "topic": "Backpropagation",
+    "chapter": "CH-08"
+  },
+  {
+    "id": "V1-010",
+    "source": "original V1 161-topic outline retrieved from prior conversation",
+    "part": 2,
+    "part_title": "The Math You Actually Need",
+    "number": 10,
+    "topic": "Optimization",
+    "chapter": "CH-11"
+  },
+  {
+    "id": "V1-011",
+    "source": "original V1 161-topic outline retrieved from prior conversation",
+    "part": 2,
+    "part_title": "The Math You Actually Need",
+    "number": 11,
+    "topic": "Numerical Representation",
+    "chapter": "CH-06"
+  },
+  {
+    "id": "V1-012",
+    "source": "original V1 161-topic outline retrieved from prior conversation",
+    "part": 3,
+    "part_title": "How Language Becomes Numbers",
+    "number": 12,
+    "topic": "Tokenization",
+    "chapter": "CH-13"
+  },
+  {
+    "id": "V1-013",
+    "source": "original V1 161-topic outline retrieved from prior conversation",
+    "part": 3,
+    "part_title": "How Language Becomes Numbers",
+    "number": 13,
+    "topic": "Embeddings",
+    "chapter": "CH-15"
+  },
+  {
+    "id": "V1-014",
+    "source": "original V1 161-topic outline retrieved from prior conversation",
+    "part": 3,
+    "part_title": "How Language Becomes Numbers",
+    "number": 14,
+    "topic": "Positional Information",
+    "chapter": "CH-16"
+  },
+  {
+    "id": "V1-015",
+    "source": "original V1 161-topic outline retrieved from prior conversation",
+    "part": 3,
+    "part_title": "How Language Becomes Numbers",
+    "number": 15,
+    "topic": "Contextual vs Static Representations",
+    "chapter": "CH-15"
+  },
+  {
+    "id": "V1-016",
+    "source": "original V1 161-topic outline retrieved from prior conversation",
+    "part": 4,
+    "part_title": "Build the Transformer From Nothing",
+    "number": 16,
+    "topic": "Before Transformers",
+    "chapter": "CH-17"
+  },
+  {
+    "id": "V1-017",
+    "source": "original V1 161-topic outline retrieved from prior conversation",
+    "part": 4,
+    "part_title": "Build the Transformer From Nothing",
+    "number": 17,
+    "topic": "Attention Intuition",
+    "chapter": "CH-17"
+  },
+  {
+    "id": "V1-018",
+    "source": "original V1 161-topic outline retrieved from prior conversation",
+    "part": 4,
+    "part_title": "Build the Transformer From Nothing",
+    "number": 18,
+    "topic": "Queries, Keys and Values",
+    "chapter": "CH-18"
+  },
+  {
+    "id": "V1-019",
+    "source": "original V1 161-topic outline retrieved from prior conversation",
+    "part": 4,
+    "part_title": "Build the Transformer From Nothing",
+    "number": 19,
+    "topic": "Scaled Dot-Product Attention",
+    "chapter": "CH-18"
+  },
+  {
+    "id": "V1-020",
+    "source": "original V1 161-topic outline retrieved from prior conversation",
+    "part": 4,
+    "part_title": "Build the Transformer From Nothing",
+    "number": 20,
+    "topic": "Causal Attention",
+    "chapter": "CH-19"
+  },
+  {
+    "id": "V1-021",
+    "source": "original V1 161-topic outline retrieved from prior conversation",
+    "part": 4,
+    "part_title": "Build the Transformer From Nothing",
+    "number": 21,
+    "topic": "Multi-Head Attention",
+    "chapter": "CH-19"
+  },
+  {
+    "id": "V1-022",
+    "source": "original V1 161-topic outline retrieved from prior conversation",
+    "part": 4,
+    "part_title": "Build the Transformer From Nothing",
+    "number": 22,
+    "topic": "The MLP / Feed-Forward Network",
+    "chapter": "CH-22"
+  },
+  {
+    "id": "V1-023",
+    "source": "original V1 161-topic outline retrieved from prior conversation",
+    "part": 4,
+    "part_title": "Build the Transformer From Nothing",
+    "number": 23,
+    "topic": "Residual Connections",
+    "chapter": "CH-21"
+  },
+  {
+    "id": "V1-024",
+    "source": "original V1 161-topic outline retrieved from prior conversation",
+    "part": 4,
+    "part_title": "Build the Transformer From Nothing",
+    "number": 24,
+    "topic": "Normalization",
+    "chapter": "CH-21"
+  },
+  {
+    "id": "V1-025",
+    "source": "original V1 161-topic outline retrieved from prior conversation",
+    "part": 4,
+    "part_title": "Build the Transformer From Nothing",
+    "number": 25,
+    "topic": "One Complete Transformer Block",
+    "chapter": "CH-22"
+  },
+  {
+    "id": "V1-026",
+    "source": "original V1 161-topic outline retrieved from prior conversation",
+    "part": 4,
+    "part_title": "Build the Transformer From Nothing",
+    "number": 26,
+    "topic": "Build a Tiny GPT",
+    "chapter": "CH-24"
+  },
+  {
+    "id": "V1-027",
+    "source": "original V1 161-topic outline retrieved from prior conversation",
+    "part": 5,
+    "part_title": "Modern LLM Architectures",
+    "number": 27,
+    "topic": "Decoder-Only Models",
+    "chapter": "CH-29"
+  },
+  {
+    "id": "V1-028",
+    "source": "original V1 161-topic outline retrieved from prior conversation",
+    "part": 5,
+    "part_title": "Modern LLM Architectures",
+    "number": 28,
+    "topic": "Encoder Models",
+    "chapter": "CH-29"
+  },
+  {
+    "id": "V1-029",
+    "source": "original V1 161-topic outline retrieved from prior conversation",
+    "part": 5,
+    "part_title": "Modern LLM Architectures",
+    "number": 29,
+    "topic": "Encoder-Decoder Models",
+    "chapter": "CH-29"
+  },
+  {
+    "id": "V1-030",
+    "source": "original V1 161-topic outline retrieved from prior conversation",
+    "part": 5,
+    "part_title": "Modern LLM Architectures",
+    "number": 30,
+    "topic": "Modern Architectural Improvements",
+    "chapter": "CH-30"
+  },
+  {
+    "id": "V1-031",
+    "source": "original V1 161-topic outline retrieved from prior conversation",
+    "part": 5,
+    "part_title": "Modern LLM Architectures",
+    "number": 31,
+    "topic": "Mixture of Experts",
+    "chapter": "CH-31"
+  },
+  {
+    "id": "V1-032",
+    "source": "original V1 161-topic outline retrieved from prior conversation",
+    "part": 5,
+    "part_title": "Modern LLM Architectures",
+    "number": 32,
+    "topic": "Other Sequence Architectures",
+    "chapter": "CH-32"
+  },
+  {
+    "id": "V1-033",
+    "source": "original V1 161-topic outline retrieved from prior conversation",
+    "part": 6,
+    "part_title": "How an LLM Is Actually Trained",
+    "number": 33,
+    "topic": "Creating Training Data",
+    "chapter": "CH-33"
+  },
+  {
+    "id": "V1-034",
+    "source": "original V1 161-topic outline retrieved from prior conversation",
+    "part": 6,
+    "part_title": "How an LLM Is Actually Trained",
+    "number": 34,
+    "topic": "Next-Token Prediction",
+    "chapter": "CH-25"
+  },
+  {
+    "id": "V1-035",
+    "source": "original V1 161-topic outline retrieved from prior conversation",
+    "part": 6,
+    "part_title": "How an LLM Is Actually Trained",
+    "number": 35,
+    "topic": "Forward Pass",
+    "chapter": "CH-26"
+  },
+  {
+    "id": "V1-036",
+    "source": "original V1 161-topic outline retrieved from prior conversation",
+    "part": 6,
+    "part_title": "How an LLM Is Actually Trained",
+    "number": 36,
+    "topic": "Loss",
+    "chapter": "CH-26"
+  },
+  {
+    "id": "V1-037",
+    "source": "original V1 161-topic outline retrieved from prior conversation",
+    "part": 6,
+    "part_title": "How an LLM Is Actually Trained",
+    "number": 37,
+    "topic": "Backward Pass",
+    "chapter": "CH-26"
+  },
+  {
+    "id": "V1-038",
+    "source": "original V1 161-topic outline retrieved from prior conversation",
+    "part": 6,
+    "part_title": "How an LLM Is Actually Trained",
+    "number": 38,
+    "topic": "Optimizer Step",
+    "chapter": "CH-26"
+  },
+  {
+    "id": "V1-039",
+    "source": "original V1 161-topic outline retrieved from prior conversation",
+    "part": 6,
+    "part_title": "How an LLM Is Actually Trained",
+    "number": 39,
+    "topic": "Batch Size, Sequence Length and Training Dynamics",
+    "chapter": "CH-25"
+  },
+  {
+    "id": "V1-040",
+    "source": "original V1 161-topic outline retrieved from prior conversation",
+    "part": 6,
+    "part_title": "How an LLM Is Actually Trained",
+    "number": 40,
+    "topic": "Checkpoints",
+    "chapter": "CH-27"
+  },
+  {
+    "id": "V1-041",
+    "source": "original V1 161-topic outline retrieved from prior conversation",
+    "part": 6,
+    "part_title": "How an LLM Is Actually Trained",
+    "number": 41,
+    "topic": "Pretraining",
+    "chapter": "CH-25"
+  },
+  {
+    "id": "V1-042",
+    "source": "original V1 161-topic outline retrieved from prior conversation",
+    "part": 6,
+    "part_title": "How an LLM Is Actually Trained",
+    "number": 42,
+    "topic": "Continued Pretraining",
+    "chapter": "CH-37"
+  },
+  {
+    "id": "V1-043",
+    "source": "original V1 161-topic outline retrieved from prior conversation",
+    "part": 6,
+    "part_title": "How an LLM Is Actually Trained",
+    "number": 43,
+    "topic": "Supervised Fine-Tuning",
+    "chapter": "CH-37"
+  },
+  {
+    "id": "V1-044",
+    "source": "original V1 161-topic outline retrieved from prior conversation",
+    "part": 6,
+    "part_title": "How an LLM Is Actually Trained",
+    "number": 44,
+    "topic": "PEFT",
+    "chapter": "CH-38"
+  },
+  {
+    "id": "V1-045",
+    "source": "original V1 161-topic outline retrieved from prior conversation",
+    "part": 6,
+    "part_title": "How an LLM Is Actually Trained",
+    "number": 45,
+    "topic": "Alignment / Preference Training",
+    "chapter": "CH-39"
+  },
+  {
+    "id": "V1-046",
+    "source": "original V1 161-topic outline retrieved from prior conversation",
+    "part": 6,
+    "part_title": "How an LLM Is Actually Trained",
+    "number": 46,
+    "topic": "Distillation",
+    "chapter": "CH-40"
+  },
+  {
+    "id": "V1-047",
+    "source": "original V1 161-topic outline retrieved from prior conversation",
+    "part": 7,
+    "part_title": "GPUs From an LLM Engineer's Perspective",
+    "number": 47,
+    "topic": "CPU vs GPU",
+    "chapter": "CH-41"
+  },
+  {
+    "id": "V1-048",
+    "source": "original V1 161-topic outline retrieved from prior conversation",
+    "part": 7,
+    "part_title": "GPUs From an LLM Engineer's Perspective",
+    "number": 48,
+    "topic": "GPU Architecture",
+    "chapter": "CH-41"
+  },
+  {
+    "id": "V1-049",
+    "source": "original V1 161-topic outline retrieved from prior conversation",
+    "part": 7,
+    "part_title": "GPUs From an LLM Engineer's Perspective",
+    "number": 49,
+    "topic": "GPU Memory Hierarchy",
+    "chapter": "CH-42"
+  },
+  {
+    "id": "V1-050",
+    "source": "original V1 161-topic outline retrieved from prior conversation",
+    "part": 7,
+    "part_title": "GPUs From an LLM Engineer's Perspective",
+    "number": 50,
+    "topic": "Compute vs Memory Bandwidth",
+    "chapter": "CH-43"
+  },
+  {
+    "id": "V1-051",
+    "source": "original V1 161-topic outline retrieved from prior conversation",
+    "part": 7,
+    "part_title": "GPUs From an LLM Engineer's Perspective",
+    "number": 51,
+    "topic": "Matrix Multiplication on GPUs",
+    "chapter": "CH-45"
+  },
+  {
+    "id": "V1-052",
+    "source": "original V1 161-topic outline retrieved from prior conversation",
+    "part": 7,
+    "part_title": "GPUs From an LLM Engineer's Perspective",
+    "number": 52,
+    "topic": "Kernels",
+    "chapter": "CH-45"
+  },
+  {
+    "id": "V1-053",
+    "source": "original V1 161-topic outline retrieved from prior conversation",
+    "part": 7,
+    "part_title": "GPUs From an LLM Engineer's Perspective",
+    "number": 53,
+    "topic": "Kernel Launches and Fusion",
+    "chapter": "CH-45"
+  },
+  {
+    "id": "V1-054",
+    "source": "original V1 161-topic outline retrieved from prior conversation",
+    "part": 7,
+    "part_title": "GPUs From an LLM Engineer's Perspective",
+    "number": 54,
+    "topic": "CUDA, Triton and Higher-Level Frameworks",
+    "chapter": "CH-46"
+  },
+  {
+    "id": "V1-055",
+    "source": "original V1 161-topic outline retrieved from prior conversation",
+    "part": 7,
+    "part_title": "GPUs From an LLM Engineer's Perspective",
+    "number": 55,
+    "topic": "The Roofline Model",
+    "chapter": "CH-43"
+  },
+  {
+    "id": "V1-056",
+    "source": "original V1 161-topic outline retrieved from prior conversation",
+    "part": 8,
+    "part_title": "Inference From First Principles",
+    "number": 56,
+    "topic": "One Forward Pass Through a Real LLM",
+    "chapter": "CH-49"
+  },
+  {
+    "id": "V1-057",
+    "source": "original V1 161-topic outline retrieved from prior conversation",
+    "part": 8,
+    "part_title": "Inference From First Principles",
+    "number": 57,
+    "topic": "Prefill",
+    "chapter": "CH-50"
+  },
+  {
+    "id": "V1-058",
+    "source": "original V1 161-topic outline retrieved from prior conversation",
+    "part": 8,
+    "part_title": "Inference From First Principles",
+    "number": 58,
+    "topic": "Decode",
+    "chapter": "CH-50"
+  },
+  {
+    "id": "V1-059",
+    "source": "original V1 161-topic outline retrieved from prior conversation",
+    "part": 8,
+    "part_title": "Inference From First Principles",
+    "number": 59,
+    "topic": "KV Cache",
+    "chapter": "CH-50"
+  },
+  {
+    "id": "V1-060",
+    "source": "original V1 161-topic outline retrieved from prior conversation",
+    "part": 8,
+    "part_title": "Inference From First Principles",
+    "number": 60,
+    "topic": "Sampling",
+    "chapter": "CH-51"
+  },
+  {
+    "id": "V1-061",
+    "source": "original V1 161-topic outline retrieved from prior conversation",
+    "part": 8,
+    "part_title": "Inference From First Principles",
+    "number": 61,
+    "topic": "Context Windows",
+    "chapter": "CH-50"
+  },
+  {
+    "id": "V1-062",
+    "source": "original V1 161-topic outline retrieved from prior conversation",
+    "part": 9,
+    "part_title": "Making Inference Fast",
+    "number": 62,
+    "topic": "Memory Accounting",
+    "chapter": "CH-52"
+  },
+  {
+    "id": "V1-063",
+    "source": "original V1 161-topic outline retrieved from prior conversation",
+    "part": 9,
+    "part_title": "Making Inference Fast",
+    "number": 63,
+    "topic": "Quantization",
+    "chapter": "CH-56"
+  },
+  {
+    "id": "V1-064",
+    "source": "original V1 161-topic outline retrieved from prior conversation",
+    "part": 9,
+    "part_title": "Making Inference Fast",
+    "number": 64,
+    "topic": "FlashAttention",
+    "chapter": "CH-53"
+  },
+  {
+    "id": "V1-065",
+    "source": "original V1 161-topic outline retrieved from prior conversation",
+    "part": 9,
+    "part_title": "Making Inference Fast",
+    "number": 65,
+    "topic": "PagedAttention",
+    "chapter": "CH-53"
+  },
+  {
+    "id": "V1-066",
+    "source": "original V1 161-topic outline retrieved from prior conversation",
+    "part": 9,
+    "part_title": "Making Inference Fast",
+    "number": 66,
+    "topic": "Continuous Batching",
+    "chapter": "CH-54"
+  },
+  {
+    "id": "V1-067",
+    "source": "original V1 161-topic outline retrieved from prior conversation",
+    "part": 9,
+    "part_title": "Making Inference Fast",
+    "number": 67,
+    "topic": "Prefix Caching",
+    "chapter": "CH-54"
+  },
+  {
+    "id": "V1-068",
+    "source": "original V1 161-topic outline retrieved from prior conversation",
+    "part": 9,
+    "part_title": "Making Inference Fast",
+    "number": 68,
+    "topic": "Chunked Prefill",
+    "chapter": "CH-54"
+  },
+  {
+    "id": "V1-069",
+    "source": "original V1 161-topic outline retrieved from prior conversation",
+    "part": 9,
+    "part_title": "Making Inference Fast",
+    "number": 69,
+    "topic": "Speculative Decoding",
+    "chapter": "CH-55"
+  },
+  {
+    "id": "V1-070",
+    "source": "original V1 161-topic outline retrieved from prior conversation",
+    "part": 9,
+    "part_title": "Making Inference Fast",
+    "number": 70,
+    "topic": "Model Offloading",
+    "chapter": "CH-62"
+  },
+  {
+    "id": "V1-071",
+    "source": "original V1 161-topic outline retrieved from prior conversation",
+    "part": 9,
+    "part_title": "Making Inference Fast",
+    "number": 71,
+    "topic": "CPU Inference",
+    "chapter": "CH-65"
+  },
+  {
+    "id": "V1-072",
+    "source": "original V1 161-topic outline retrieved from prior conversation",
+    "part": 9,
+    "part_title": "Making Inference Fast",
+    "number": 72,
+    "topic": "GPU Inference",
+    "chapter": "CH-49"
+  },
+  {
+    "id": "V1-073",
+    "source": "original V1 161-topic outline retrieved from prior conversation",
+    "part": 9,
+    "part_title": "Making Inference Fast",
+    "number": 73,
+    "topic": "NPU / Accelerator Inference",
+    "chapter": "CH-67"
+  },
+  {
+    "id": "V1-074",
+    "source": "original V1 161-topic outline retrieved from prior conversation",
+    "part": 10,
+    "part_title": "Distributed LLM Systems",
+    "number": 74,
+    "topic": "Why One GPU Stops Being Enough",
+    "chapter": "CH-57"
+  },
+  {
+    "id": "V1-075",
+    "source": "original V1 161-topic outline retrieved from prior conversation",
+    "part": 10,
+    "part_title": "Distributed LLM Systems",
+    "number": 75,
+    "topic": "Data Parallelism",
+    "chapter": "CH-57"
+  },
+  {
+    "id": "V1-076",
+    "source": "original V1 161-topic outline retrieved from prior conversation",
+    "part": 10,
+    "part_title": "Distributed LLM Systems",
+    "number": 76,
+    "topic": "Tensor Parallelism",
+    "chapter": "CH-58"
+  },
+  {
+    "id": "V1-077",
+    "source": "original V1 161-topic outline retrieved from prior conversation",
+    "part": 10,
+    "part_title": "Distributed LLM Systems",
+    "number": 77,
+    "topic": "Pipeline Parallelism",
+    "chapter": "CH-58"
+  },
+  {
+    "id": "V1-078",
+    "source": "original V1 161-topic outline retrieved from prior conversation",
+    "part": 10,
+    "part_title": "Distributed LLM Systems",
+    "number": 78,
+    "topic": "Sequence Parallelism",
+    "chapter": "CH-58"
+  },
+  {
+    "id": "V1-079",
+    "source": "original V1 161-topic outline retrieved from prior conversation",
+    "part": 10,
+    "part_title": "Distributed LLM Systems",
+    "number": 79,
+    "topic": "Expert Parallelism",
+    "chapter": "CH-58"
+  },
+  {
+    "id": "V1-080",
+    "source": "original V1 161-topic outline retrieved from prior conversation",
+    "part": 10,
+    "part_title": "Distributed LLM Systems",
+    "number": 80,
+    "topic": "Sharded Training",
+    "chapter": "CH-57"
+  },
+  {
+    "id": "V1-081",
+    "source": "original V1 161-topic outline retrieved from prior conversation",
+    "part": 10,
+    "part_title": "Distributed LLM Systems",
+    "number": 81,
+    "topic": "Interconnects",
+    "chapter": "CH-59"
+  },
+  {
+    "id": "V1-082",
+    "source": "original V1 161-topic outline retrieved from prior conversation",
+    "part": 10,
+    "part_title": "Distributed LLM Systems",
+    "number": 82,
+    "topic": "Collective Communications",
+    "chapter": "CH-59"
+  },
+  {
+    "id": "V1-083",
+    "source": "original V1 161-topic outline retrieved from prior conversation",
+    "part": 11,
+    "part_title": "Production LLM Serving",
+    "number": 83,
+    "topic": "What an Inference Server Actually Does",
+    "chapter": "CH-61"
+  },
+  {
+    "id": "V1-084",
+    "source": "original V1 161-topic outline retrieved from prior conversation",
+    "part": 11,
+    "part_title": "Production LLM Serving",
+    "number": 84,
+    "topic": "Request Scheduling",
+    "chapter": "CH-61"
+  },
+  {
+    "id": "V1-085",
+    "source": "original V1 161-topic outline retrieved from prior conversation",
+    "part": 11,
+    "part_title": "Production LLM Serving",
+    "number": 85,
+    "topic": "Throughput vs Latency",
+    "chapter": "CH-64"
+  },
+  {
+    "id": "V1-086",
+    "source": "original V1 161-topic outline retrieved from prior conversation",
+    "part": 11,
+    "part_title": "Production LLM Serving",
+    "number": 86,
+    "topic": "Batching and Scheduling Policies",
+    "chapter": "CH-61"
+  },
+  {
+    "id": "V1-087",
+    "source": "original V1 161-topic outline retrieved from prior conversation",
+    "part": 11,
+    "part_title": "Production LLM Serving",
+    "number": 87,
+    "topic": "KV-Cache Management",
+    "chapter": "CH-61"
+  },
+  {
+    "id": "V1-088",
+    "source": "original V1 161-topic outline retrieved from prior conversation",
+    "part": 11,
+    "part_title": "Production LLM Serving",
+    "number": 88,
+    "topic": "Multi-Tenant Serving",
+    "chapter": "CH-62"
+  },
+  {
+    "id": "V1-089",
+    "source": "original V1 161-topic outline retrieved from prior conversation",
+    "part": 11,
+    "part_title": "Production LLM Serving",
+    "number": 89,
+    "topic": "Model Loading and Residency",
+    "chapter": "CH-62"
+  },
+  {
+    "id": "V1-090",
+    "source": "original V1 161-topic outline retrieved from prior conversation",
+    "part": 11,
+    "part_title": "Production LLM Serving",
+    "number": 90,
+    "topic": "Multi-Model Serving",
+    "chapter": "CH-62"
+  },
+  {
+    "id": "V1-091",
+    "source": "original V1 161-topic outline retrieved from prior conversation",
+    "part": 11,
+    "part_title": "Production LLM Serving",
+    "number": 91,
+    "topic": "Disaggregated Prefill and Decode",
+    "chapter": "CH-63"
+  },
+  {
+    "id": "V1-092",
+    "source": "original V1 161-topic outline retrieved from prior conversation",
+    "part": 11,
+    "part_title": "Production LLM Serving",
+    "number": 92,
+    "topic": "Failure Handling and Observability",
+    "chapter": "CH-64"
+  },
+  {
+    "id": "V1-093",
+    "source": "original V1 161-topic outline retrieved from prior conversation",
+    "part": 11,
+    "part_title": "Production LLM Serving",
+    "number": 93,
+    "topic": "vLLM / TensorRT-LLM / llama.cpp-Type Architectures",
+    "chapter": "CH-63"
+  },
+  {
+    "id": "V1-094",
+    "source": "original V1 161-topic outline retrieved from prior conversation",
+    "part": 12,
+    "part_title": "On-Device LLMs",
+    "number": 94,
+    "topic": "Why Edge Inference Is Different",
+    "chapter": "CH-65"
+  },
+  {
+    "id": "V1-095",
+    "source": "original V1 161-topic outline retrieved from prior conversation",
+    "part": 12,
+    "part_title": "On-Device LLMs",
+    "number": 95,
+    "topic": "CPU + GPU Hybrid Execution",
+    "chapter": "CH-66"
+  },
+  {
+    "id": "V1-096",
+    "source": "original V1 161-topic outline retrieved from prior conversation",
+    "part": 12,
+    "part_title": "On-Device LLMs",
+    "number": 96,
+    "topic": "Unified Memory",
+    "chapter": "CH-66"
+  },
+  {
+    "id": "V1-097",
+    "source": "original V1 161-topic outline retrieved from prior conversation",
+    "part": 12,
+    "part_title": "On-Device LLMs",
+    "number": 97,
+    "topic": "Quantized Local Models",
+    "chapter": "CH-66"
+  },
+  {
+    "id": "V1-098",
+    "source": "original V1 161-topic outline retrieved from prior conversation",
+    "part": 12,
+    "part_title": "On-Device LLMs",
+    "number": 98,
+    "topic": "llama.cpp and GGUF Internals",
+    "chapter": "CH-66"
+  },
+  {
+    "id": "V1-099",
+    "source": "original V1 161-topic outline retrieved from prior conversation",
+    "part": 12,
+    "part_title": "On-Device LLMs",
+    "number": 99,
+    "topic": "OpenVINO / NPUs / Hardware-Specific Runtimes",
+    "chapter": "CH-67"
+  },
+  {
+    "id": "V1-100",
+    "source": "original V1 161-topic outline retrieved from prior conversation",
+    "part": 12,
+    "part_title": "On-Device LLMs",
+    "number": 100,
+    "topic": "Model Loading and Memory Mapping",
+    "chapter": "CH-66"
+  },
+  {
+    "id": "V1-101",
+    "source": "original V1 161-topic outline retrieved from prior conversation",
+    "part": 12,
+    "part_title": "On-Device LLMs",
+    "number": 101,
+    "topic": "Pruning",
+    "chapter": "CH-55"
+  },
+  {
+    "id": "V1-102",
+    "source": "original V1 161-topic outline retrieved from prior conversation",
+    "part": 12,
+    "part_title": "On-Device LLMs",
+    "number": 102,
+    "topic": "Distillation",
+    "chapter": "CH-40"
+  },
+  {
+    "id": "V1-103",
+    "source": "original V1 161-topic outline retrieved from prior conversation",
+    "part": 12,
+    "part_title": "On-Device LLMs",
+    "number": 103,
+    "topic": "Dynamic Computation",
+    "chapter": "CH-68"
+  },
+  {
+    "id": "V1-104",
+    "source": "original V1 161-topic outline retrieved from prior conversation",
+    "part": 13,
+    "part_title": "Embeddings, Retrieval and External Memory",
+    "number": 104,
+    "topic": "Sentence and Document Embeddings",
+    "chapter": "CH-69"
+  },
+  {
+    "id": "V1-105",
+    "source": "original V1 161-topic outline retrieved from prior conversation",
+    "part": 13,
+    "part_title": "Embeddings, Retrieval and External Memory",
+    "number": 105,
+    "topic": "Contrastive Learning",
+    "chapter": "CH-69"
+  },
+  {
+    "id": "V1-106",
+    "source": "original V1 161-topic outline retrieved from prior conversation",
+    "part": 13,
+    "part_title": "Embeddings, Retrieval and External Memory",
+    "number": 106,
+    "topic": "Vector Search",
+    "chapter": "CH-69"
+  },
+  {
+    "id": "V1-107",
+    "source": "original V1 161-topic outline retrieved from prior conversation",
+    "part": 13,
+    "part_title": "Embeddings, Retrieval and External Memory",
+    "number": 107,
+    "topic": "Approximate Nearest Neighbors",
+    "chapter": "CH-69"
+  },
+  {
+    "id": "V1-108",
+    "source": "original V1 161-topic outline retrieved from prior conversation",
+    "part": 13,
+    "part_title": "Embeddings, Retrieval and External Memory",
+    "number": 108,
+    "topic": "Vector Databases",
+    "chapter": "CH-69"
+  },
+  {
+    "id": "V1-109",
+    "source": "original V1 161-topic outline retrieved from prior conversation",
+    "part": 13,
+    "part_title": "Embeddings, Retrieval and External Memory",
+    "number": 109,
+    "topic": "RAG",
+    "chapter": "CH-70"
+  },
+  {
+    "id": "V1-110",
+    "source": "original V1 161-topic outline retrieved from prior conversation",
+    "part": 13,
+    "part_title": "Embeddings, Retrieval and External Memory",
+    "number": 110,
+    "topic": "Chunking and Retrieval",
+    "chapter": "CH-70"
+  },
+  {
+    "id": "V1-111",
+    "source": "original V1 161-topic outline retrieved from prior conversation",
+    "part": 13,
+    "part_title": "Embeddings, Retrieval and External Memory",
+    "number": 111,
+    "topic": "Reranking",
+    "chapter": "CH-70"
+  },
+  {
+    "id": "V1-112",
+    "source": "original V1 161-topic outline retrieved from prior conversation",
+    "part": 13,
+    "part_title": "Embeddings, Retrieval and External Memory",
+    "number": 112,
+    "topic": "Memory Systems",
+    "chapter": "CH-71"
+  },
+  {
+    "id": "V1-113",
+    "source": "original V1 161-topic outline retrieved from prior conversation",
+    "part": 14,
+    "part_title": "Reasoning, Tools and Agents",
+    "number": 113,
+    "topic": "Why Generation Can Behave Like Reasoning",
+    "chapter": "CH-40"
+  },
+  {
+    "id": "V1-114",
+    "source": "original V1 161-topic outline retrieved from prior conversation",
+    "part": 14,
+    "part_title": "Reasoning, Tools and Agents",
+    "number": 114,
+    "topic": "Test-Time Compute",
+    "chapter": "CH-40"
+  },
+  {
+    "id": "V1-115",
+    "source": "original V1 161-topic outline retrieved from prior conversation",
+    "part": 14,
+    "part_title": "Reasoning, Tools and Agents",
+    "number": 115,
+    "topic": "Tool Calling",
+    "chapter": "CH-71"
+  },
+  {
+    "id": "V1-116",
+    "source": "original V1 161-topic outline retrieved from prior conversation",
+    "part": 14,
+    "part_title": "Reasoning, Tools and Agents",
+    "number": 116,
+    "topic": "Structured Outputs",
+    "chapter": "CH-71"
+  },
+  {
+    "id": "V1-117",
+    "source": "original V1 161-topic outline retrieved from prior conversation",
+    "part": 14,
+    "part_title": "Reasoning, Tools and Agents",
+    "number": 117,
+    "topic": "Agents",
+    "chapter": "CH-72"
+  },
+  {
+    "id": "V1-118",
+    "source": "original V1 161-topic outline retrieved from prior conversation",
+    "part": 14,
+    "part_title": "Reasoning, Tools and Agents",
+    "number": 118,
+    "topic": "Planning",
+    "chapter": "CH-72"
+  },
+  {
+    "id": "V1-119",
+    "source": "original V1 161-topic outline retrieved from prior conversation",
+    "part": 14,
+    "part_title": "Reasoning, Tools and Agents",
+    "number": 119,
+    "topic": "Multi-Agent Systems",
+    "chapter": "CH-72"
+  },
+  {
+    "id": "V1-120",
+    "source": "original V1 161-topic outline retrieved from prior conversation",
+    "part": 14,
+    "part_title": "Reasoning, Tools and Agents",
+    "number": 120,
+    "topic": "Multi-LLM Systems",
+    "chapter": "CH-72"
+  },
+  {
+    "id": "V1-121",
+    "source": "original V1 161-topic outline retrieved from prior conversation",
+    "part": 14,
+    "part_title": "Reasoning, Tools and Agents",
+    "number": 121,
+    "topic": "Cost of Agentic Systems",
+    "chapter": "CH-72"
+  },
+  {
+    "id": "V1-122",
+    "source": "original V1 161-topic outline retrieved from prior conversation",
+    "part": 15,
+    "part_title": "Inside the Model",
+    "number": 122,
+    "topic": "Hidden States",
+    "chapter": "CH-73"
+  },
+  {
+    "id": "V1-123",
+    "source": "original V1 161-topic outline retrieved from prior conversation",
+    "part": 15,
+    "part_title": "Inside the Model",
+    "number": 123,
+    "topic": "The Residual Stream",
+    "chapter": "CH-73"
+  },
+  {
+    "id": "V1-124",
+    "source": "original V1 161-topic outline retrieved from prior conversation",
+    "part": 15,
+    "part_title": "Inside the Model",
+    "number": 124,
+    "topic": "What Individual Layers Learn",
+    "chapter": "CH-73"
+  },
+  {
+    "id": "V1-125",
+    "source": "original V1 161-topic outline retrieved from prior conversation",
+    "part": 15,
+    "part_title": "Inside the Model",
+    "number": 125,
+    "topic": "Attention-Head Analysis",
+    "chapter": "CH-73"
+  },
+  {
+    "id": "V1-126",
+    "source": "original V1 161-topic outline retrieved from prior conversation",
+    "part": 15,
+    "part_title": "Inside the Model",
+    "number": 126,
+    "topic": "Probing",
+    "chapter": "CH-74"
+  },
+  {
+    "id": "V1-127",
+    "source": "original V1 161-topic outline retrieved from prior conversation",
+    "part": 15,
+    "part_title": "Inside the Model",
+    "number": 127,
+    "topic": "Activation Steering",
+    "chapter": "CH-75"
+  },
+  {
+    "id": "V1-128",
+    "source": "original V1 161-topic outline retrieved from prior conversation",
+    "part": 15,
+    "part_title": "Inside the Model",
+    "number": 128,
+    "topic": "Representation Engineering",
+    "chapter": "CH-75"
+  },
+  {
+    "id": "V1-129",
+    "source": "original V1 161-topic outline retrieved from prior conversation",
+    "part": 15,
+    "part_title": "Inside the Model",
+    "number": 129,
+    "topic": "Mechanistic Interpretability",
+    "chapter": "CH-74"
+  },
+  {
+    "id": "V1-130",
+    "source": "original V1 161-topic outline retrieved from prior conversation",
+    "part": 15,
+    "part_title": "Inside the Model",
+    "number": 130,
+    "topic": "Model Editing",
+    "chapter": "CH-75"
+  },
+  {
+    "id": "V1-131",
+    "source": "original V1 161-topic outline retrieved from prior conversation",
+    "part": 15,
+    "part_title": "Inside the Model",
+    "number": 131,
+    "topic": "Model Merging",
+    "chapter": "CH-76"
+  },
+  {
+    "id": "V1-132",
+    "source": "original V1 161-topic outline retrieved from prior conversation",
+    "part": 15,
+    "part_title": "Inside the Model",
+    "number": 132,
+    "topic": "Layer Stitching",
+    "chapter": "CH-76"
+  },
+  {
+    "id": "V1-133",
+    "source": "original V1 161-topic outline retrieved from prior conversation",
+    "part": 16,
+    "part_title": "Frontier Efficiency and Architecture Research",
+    "number": 133,
+    "topic": "KV-Cache Compression",
+    "chapter": "CH-77"
+  },
+  {
+    "id": "V1-134",
+    "source": "original V1 161-topic outline retrieved from prior conversation",
+    "part": 16,
+    "part_title": "Frontier Efficiency and Architecture Research",
+    "number": 134,
+    "topic": "KV Eviction",
+    "chapter": "CH-77"
+  },
+  {
+    "id": "V1-135",
+    "source": "original V1 161-topic outline retrieved from prior conversation",
+    "part": 16,
+    "part_title": "Frontier Efficiency and Architecture Research",
+    "number": 135,
+    "topic": "Prefix Reuse",
+    "chapter": "CH-77"
+  },
+  {
+    "id": "V1-136",
+    "source": "original V1 161-topic outline retrieved from prior conversation",
+    "part": 16,
+    "part_title": "Frontier Efficiency and Architecture Research",
+    "number": 136,
+    "topic": "Activation Compression",
+    "chapter": "CH-77"
+  },
+  {
+    "id": "V1-137",
+    "source": "original V1 161-topic outline retrieved from prior conversation",
+    "part": 16,
+    "part_title": "Frontier Efficiency and Architecture Research",
+    "number": 137,
+    "topic": "Early Exit",
+    "chapter": "CH-55"
+  },
+  {
+    "id": "V1-138",
+    "source": "original V1 161-topic outline retrieved from prior conversation",
+    "part": 16,
+    "part_title": "Frontier Efficiency and Architecture Research",
+    "number": 138,
+    "topic": "Adaptive Computation",
+    "chapter": "CH-77"
+  },
+  {
+    "id": "V1-139",
+    "source": "original V1 161-topic outline retrieved from prior conversation",
+    "part": 16,
+    "part_title": "Frontier Efficiency and Architecture Research",
+    "number": 139,
+    "topic": "Dynamic Layer Skipping",
+    "chapter": "CH-77"
+  },
+  {
+    "id": "V1-140",
+    "source": "original V1 161-topic outline retrieved from prior conversation",
+    "part": 16,
+    "part_title": "Frontier Efficiency and Architecture Research",
+    "number": 140,
+    "topic": "Model Cascades",
+    "chapter": "CH-78"
+  },
+  {
+    "id": "V1-141",
+    "source": "original V1 161-topic outline retrieved from prior conversation",
+    "part": 16,
+    "part_title": "Frontier Efficiency and Architecture Research",
+    "number": 141,
+    "topic": "Speculative Models",
+    "chapter": "CH-55"
+  },
+  {
+    "id": "V1-142",
+    "source": "original V1 161-topic outline retrieved from prior conversation",
+    "part": 16,
+    "part_title": "Frontier Efficiency and Architecture Research",
+    "number": 142,
+    "topic": "Neural Handoffs",
+    "chapter": "CH-78"
+  },
+  {
+    "id": "V1-143",
+    "source": "original V1 161-topic outline retrieved from prior conversation",
+    "part": 16,
+    "part_title": "Frontier Efficiency and Architecture Research",
+    "number": 143,
+    "topic": "Latent Model-to-Model Communication",
+    "chapter": "CH-78"
+  },
+  {
+    "id": "V1-144",
+    "source": "original V1 161-topic outline retrieved from prior conversation",
+    "part": 16,
+    "part_title": "Frontier Efficiency and Architecture Research",
+    "number": 144,
+    "topic": "Cross-Model Representation Translation",
+    "chapter": "CH-78"
+  },
+  {
+    "id": "V1-145",
+    "source": "original V1 161-topic outline retrieved from prior conversation",
+    "part": 16,
+    "part_title": "Frontier Efficiency and Architecture Research",
+    "number": 145,
+    "topic": "Sparse Expert Intervention",
+    "chapter": "CH-78"
+  },
+  {
+    "id": "V1-146",
+    "source": "original V1 161-topic outline retrieved from prior conversation",
+    "part": 16,
+    "part_title": "Frontier Efficiency and Architecture Research",
+    "number": 146,
+    "topic": "LLM Call Elimination",
+    "chapter": "CH-78"
+  },
+  {
+    "id": "V1-147",
+    "source": "original V1 161-topic outline retrieved from prior conversation",
+    "part": 16,
+    "part_title": "Frontier Efficiency and Architecture Research",
+    "number": 147,
+    "topic": "Computation as a Routable Resource",
+    "chapter": "CH-78"
+  },
+  {
+    "id": "V1-148",
+    "source": "original V1 161-topic outline retrieved from prior conversation",
+    "part": 17,
+    "part_title": "How to Do LLM Research Properly",
+    "number": 148,
+    "topic": "Forming a Research Question",
+    "chapter": "CH-79"
+  },
+  {
+    "id": "V1-149",
+    "source": "original V1 161-topic outline retrieved from prior conversation",
+    "part": 17,
+    "part_title": "How to Do LLM Research Properly",
+    "number": 149,
+    "topic": "Literature Search",
+    "chapter": "CH-79"
+  },
+  {
+    "id": "V1-150",
+    "source": "original V1 161-topic outline retrieved from prior conversation",
+    "part": 17,
+    "part_title": "How to Do LLM Research Properly",
+    "number": 150,
+    "topic": "Baselines",
+    "chapter": "CH-79"
+  },
+  {
+    "id": "V1-151",
+    "source": "original V1 161-topic outline retrieved from prior conversation",
+    "part": 17,
+    "part_title": "How to Do LLM Research Properly",
+    "number": 151,
+    "topic": "Designing Experiments",
+    "chapter": "CH-79"
+  },
+  {
+    "id": "V1-152",
+    "source": "original V1 161-topic outline retrieved from prior conversation",
+    "part": 17,
+    "part_title": "How to Do LLM Research Properly",
+    "number": 152,
+    "topic": "Ablations",
+    "chapter": "CH-80"
+  },
+  {
+    "id": "V1-153",
+    "source": "original V1 161-topic outline retrieved from prior conversation",
+    "part": 17,
+    "part_title": "How to Do LLM Research Properly",
+    "number": 153,
+    "topic": "Benchmark Selection",
+    "chapter": "CH-79"
+  },
+  {
+    "id": "V1-154",
+    "source": "original V1 161-topic outline retrieved from prior conversation",
+    "part": 17,
+    "part_title": "How to Do LLM Research Properly",
+    "number": 154,
+    "topic": "Statistical Significance",
+    "chapter": "CH-80"
+  },
+  {
+    "id": "V1-155",
+    "source": "original V1 161-topic outline retrieved from prior conversation",
+    "part": 17,
+    "part_title": "How to Do LLM Research Properly",
+    "number": 155,
+    "topic": "Profiling Compute",
+    "chapter": "CH-80"
+  },
+  {
+    "id": "V1-156",
+    "source": "original V1 161-topic outline retrieved from prior conversation",
+    "part": 17,
+    "part_title": "How to Do LLM Research Properly",
+    "number": 156,
+    "topic": "Measuring FLOPs, Memory and Latency",
+    "chapter": "CH-80"
+  },
+  {
+    "id": "V1-157",
+    "source": "original V1 161-topic outline retrieved from prior conversation",
+    "part": 17,
+    "part_title": "How to Do LLM Research Properly",
+    "number": 157,
+    "topic": "Reproducibility",
+    "chapter": "CH-79"
+  },
+  {
+    "id": "V1-158",
+    "source": "original V1 161-topic outline retrieved from prior conversation",
+    "part": 17,
+    "part_title": "How to Do LLM Research Properly",
+    "number": 158,
+    "topic": "Reading Papers Critically",
+    "chapter": "CH-79"
+  },
+  {
+    "id": "V1-159",
+    "source": "original V1 161-topic outline retrieved from prior conversation",
+    "part": 17,
+    "part_title": "How to Do LLM Research Properly",
+    "number": 159,
+    "topic": "Writing a Research Paper",
+    "chapter": "CH-80"
+  },
+  {
+    "id": "V1-160",
+    "source": "original V1 161-topic outline retrieved from prior conversation",
+    "part": 17,
+    "part_title": "How to Do LLM Research Properly",
+    "number": 160,
+    "topic": "arXiv, Conferences and Peer Review",
+    "chapter": "CH-80"
+  },
+  {
+    "id": "V1-161",
+    "source": "original V1 161-topic outline retrieved from prior conversation",
+    "part": 17,
+    "part_title": "How to Do LLM Research Properly",
+    "number": 161,
+    "topic": "Finding Unanswered Questions",
+    "chapter": "CH-80"
+  }
+]

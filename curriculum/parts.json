@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "title": "What Is This Machine?"
+  },
+  {
+    "id": 2,
+    "title": "Tensors, Math and Computation"
+  },
+  {
+    "id": 3,
+    "title": "Neural Networks Before Transformers"
+  },
+  {
+    "id": 4,
+    "title": "Turning Language Into Numbers"
+  },
+  {
+    "id": 5,
+    "title": "Attention From First Principles"
+  },
+  {
+    "id": 6,
+    "title": "Build a Transformer"
+  },
+  {
+    "id": 7,
+    "title": "Train the Thing"
+  },
+  {
+    "id": 8,
+    "title": "Modern LLM Architecture"
+  },
+  {
+    "id": 9,
+    "title": "Data, Scaling and Evaluation"
+  },
+  {
+    "id": 10,
+    "title": "Post-Training and Reasoning"
+  },
+  {
+    "id": 11,
+    "title": "GPU Fundamentals"
+  },
+  {
+    "id": 12,
+    "title": "Kernels and the Software Stack"
+  },
+  {
+    "id": 13,
+    "title": "LLM Inference From First Principles"
+  },
+  {
+    "id": 14,
+    "title": "Making Inference Fast"
+  },
+  {
+    "id": 15,
+    "title": "Distributed LLMs"
+  },
+  {
+    "id": 16,
+    "title": "Serving LLMs as a System"
+  },
+  {
+    "id": 17,
+    "title": "LLMs on Your Laptop"
+  },
+  {
+    "id": 18,
+    "title": "Retrieval, Memory and Agents"
+  },
+  {
+    "id": 19,
+    "title": "Inside the Model: Representations and Intervention"
+  },
+  {
+    "id": 20,
+    "title": "Frontier Architecture and Research"
+  }
+]
