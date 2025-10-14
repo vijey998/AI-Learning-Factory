@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">KV cache lifecycle</title><desc id="desc">Prefill writes key and value states; each decode step reads history and appends one new position.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L0,6 L9,3 z" fill="#24364b"/></marker>
+    <style>
+      .bg{fill:#fbfcfe} .box{fill:#eef4fb;stroke:#315a84;stroke-width:2} .accent{fill:#e8f6ef;stroke:#28755a;stroke-width:2}
+      .warm{fill:#fff3e4;stroke:#9a5c13;stroke-width:2} .muted{fill:#f4f1f8;stroke:#6a5681;stroke-width:2}
+      .line{fill:none;stroke:#24364b;stroke-width:2.4;marker-end:url(#arrow)} .dash{fill:none;stroke:#56697d;stroke-width:2;stroke-dasharray:8 6;marker-end:url(#arrow)}
+      .title{font:700 30px system-ui,sans-serif;fill:#172536} .label{font:600 19px system-ui,sans-serif;fill:#172536} .small{font:16px system-ui,sans-serif;fill:#33475b}
+      .tiny{font:14px ui-monospace,monospace;fill:#33475b} .math{font:17px ui-monospace,monospace;fill:#172536} .note{font:italic 15px system-ui,sans-serif;fill:#56697d}
+    </style>
+  </defs><rect class="bg" width="1200" height="675"/><text class="title" x="56" y="55">KV cache lifecycle</text>
+<rect class="warm" x="60" y="120" width="270" height="100" rx="12"/><text class="label" x="195.0" y="151" text-anchor="middle">Prefill</text><text class="tiny" x="195.0" y="177" text-anchor="middle">process T prompt tokens</text><text class="tiny" x="195.0" y="198" text-anchor="middle">write K,V for every layer</text>
+<rect class="accent" x="465" y="120" width="270" height="100" rx="12"/><text class="label" x="600.0" y="151" text-anchor="middle">KV cache</text><text class="tiny" x="600.0" y="177" text-anchor="middle">per layer: K and V</text><text class="tiny" x="600.0" y="198" text-anchor="middle">[B,Hkv,T,dₕ]</text>
+<rect class="box" x="870" y="120" width="270" height="100" rx="12"/><text class="label" x="1005.0" y="151" text-anchor="middle">Decode step</text><text class="tiny" x="1005.0" y="177" text-anchor="middle">one new query</text><text class="tiny" x="1005.0" y="198" text-anchor="middle">read historical K,V</text>
+<path class="line" d="M330 170 L465 170"/>
+<path class="line" d="M735 170 L870 170"/>
+<rect class="accent" x="60" y="360" width="270" height="95" rx="12"/><text class="label" x="195.0" y="391" text-anchor="middle">Append</text><text class="tiny" x="195.0" y="417" text-anchor="middle">new K,V at position T</text>
+<rect class="warm" x="465" y="360" width="270" height="95" rx="12"/><text class="label" x="600.0" y="391" text-anchor="middle">Cache grows</text><text class="tiny" x="600.0" y="417" text-anchor="middle">T → T+1</text>
+<rect class="muted" x="870" y="360" width="270" height="95" rx="12"/><text class="label" x="1005.0" y="391" text-anchor="middle">Emit token</text><text class="tiny" x="1005.0" y="417" text-anchor="middle">then repeat decode</text>
+<path class="line" d="M1005 220 L195 360"/>
+<path class="line" d="M330 407 L465 407"/>
+<path class="line" d="M735 407 L870 407"/>
+<text class="math" x="600" y="520" text-anchor="middle">bytes = 2 · L · B · Hkv · T · dₕ · bytes/element</text>
+<text class="small" x="600" y="555" text-anchor="middle">2 accounts for K and V; cache stores activations, not attention scores</text>
+<text class="note" x="600" y="646" text-anchor="middle">Cached K/V avoids recomputing earlier token projections, but attention still reads history.</text>
+</svg>

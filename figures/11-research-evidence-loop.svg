@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">Research and evidence loop</title><desc id="desc">A falsifiable question becomes a preregistered controlled experiment, uncertainty analysis, ablation, and reproduction artifact.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L0,6 L9,3 z" fill="#24364b"/></marker>
+    <style>
+      .bg{fill:#fbfcfe} .box{fill:#eef4fb;stroke:#315a84;stroke-width:2} .accent{fill:#e8f6ef;stroke:#28755a;stroke-width:2}
+      .warm{fill:#fff3e4;stroke:#9a5c13;stroke-width:2} .muted{fill:#f4f1f8;stroke:#6a5681;stroke-width:2}
+      .line{fill:none;stroke:#24364b;stroke-width:2.4;marker-end:url(#arrow)} .dash{fill:none;stroke:#56697d;stroke-width:2;stroke-dasharray:8 6;marker-end:url(#arrow)}
+      .title{font:700 30px system-ui,sans-serif;fill:#172536} .label{font:600 19px system-ui,sans-serif;fill:#172536} .small{font:16px system-ui,sans-serif;fill:#33475b}
+      .tiny{font:14px ui-monospace,monospace;fill:#33475b} .math{font:17px ui-monospace,monospace;fill:#172536} .note{font:italic 15px system-ui,sans-serif;fill:#56697d}
+    </style>
+  </defs><rect class="bg" width="1200" height="675"/><text class="title" x="56" y="55">Research and evidence loop</text>
+<rect class="warm" x="55" y="115" width="180" height="85" rx="12"/><text class="label" x="145.0" y="146" text-anchor="middle">Question</text><text class="tiny" x="145.0" y="172" text-anchor="middle">falsifiable claim</text>
+<rect class="box" x="285" y="115" width="190" height="85" rx="12"/><text class="label" x="380.0" y="146" text-anchor="middle">Hypothesis</text><text class="tiny" x="380.0" y="172" text-anchor="middle">direction + scope</text>
+<rect class="accent" x="525" y="115" width="190" height="85" rx="12"/><text class="label" x="620.0" y="146" text-anchor="middle">Preregister</text><text class="tiny" x="620.0" y="172" text-anchor="middle">metric + budget</text>
+<rect class="muted" x="765" y="115" width="190" height="85" rx="12"/><text class="label" x="860.0" y="146" text-anchor="middle">Experiment</text><text class="tiny" x="860.0" y="172" text-anchor="middle">baseline + controls</text>
+<rect class="warm" x="1005" y="115" width="150" height="85" rx="12"/><text class="label" x="1080.0" y="146" text-anchor="middle">Evidence</text><text class="tiny" x="1080.0" y="172" text-anchor="middle">data + logs</text>
+<path class="line" d="M235 157 L285 157"/>
+<path class="line" d="M475 157 L525 157"/>
+<path class="line" d="M715 157 L765 157"/>
+<path class="line" d="M955 157 L1005 157"/>
+<rect class="box" x="165" y="340" width="210" height="95" rx="12"/><text class="label" x="270.0" y="371" text-anchor="middle">Uncertainty</text><text class="tiny" x="270.0" y="397" text-anchor="middle">paired CI / variance</text>
+<rect class="accent" x="495" y="340" width="210" height="95" rx="12"/><text class="label" x="600.0" y="371" text-anchor="middle">Ablations</text><text class="tiny" x="600.0" y="397" text-anchor="middle">remove one factor</text>
+<rect class="muted" x="825" y="340" width="210" height="95" rx="12"/><text class="label" x="930.0" y="371" text-anchor="middle">Reproduction</text><text class="tiny" x="930.0" y="397" text-anchor="middle">clean environment</text>
+<path class="line" d="M1080 200 L930 340"/>
+<path class="line" d="M825 387 L705 387"/>
+<path class="line" d="M495 387 L375 387"/>
+<text class="math" x="600" y="500" text-anchor="middle">claim ↔ metric ↔ result ↔ artifact</text>
+<text class="small" x="600" y="540" text-anchor="middle">Negative results remain informative when the stopping rule was fixed in advance</text>
+<text class="note" x="600" y="646" text-anchor="middle">Conclusions must be no stronger than the evidence and controls that support them.</text>
+</svg>

@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">End-to-end autoregressive LLM flow</title><desc id="desc">Text becomes token IDs, tensors, logits, and an appended next token in a repeated inference loop.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L0,6 L9,3 z" fill="#24364b"/></marker>
+    <style>
+      .bg{fill:#fbfcfe} .box{fill:#eef4fb;stroke:#315a84;stroke-width:2} .accent{fill:#e8f6ef;stroke:#28755a;stroke-width:2}
+      .warm{fill:#fff3e4;stroke:#9a5c13;stroke-width:2} .muted{fill:#f4f1f8;stroke:#6a5681;stroke-width:2}
+      .line{fill:none;stroke:#24364b;stroke-width:2.4;marker-end:url(#arrow)} .dash{fill:none;stroke:#56697d;stroke-width:2;stroke-dasharray:8 6;marker-end:url(#arrow)}
+      .title{font:700 30px system-ui,sans-serif;fill:#172536} .label{font:600 19px system-ui,sans-serif;fill:#172536} .small{font:16px system-ui,sans-serif;fill:#33475b}
+      .tiny{font:14px ui-monospace,monospace;fill:#33475b} .math{font:17px ui-monospace,monospace;fill:#172536} .note{font:italic 15px system-ui,sans-serif;fill:#56697d}
+    </style>
+  </defs><rect class="bg" width="1200" height="675"/><text class="title" x="56" y="55">End-to-end autoregressive LLM flow</text>
+<rect class="warm" x="55" y="150" width="140" height="105" rx="12"/><text class="label" x="125.0" y="181" text-anchor="middle">Text</text><text class="tiny" x="125.0" y="207" text-anchor="middle">UTF-8</text>
+<path class="line" d="M195 202 L245 202"/>
+<rect class="box" x="245" y="150" width="140" height="105" rx="12"/><text class="label" x="315.0" y="181" text-anchor="middle">Tokenizer</text><text class="tiny" x="315.0" y="207" text-anchor="middle">IDs [T]</text>
+<path class="line" d="M385 202 L435 202"/>
+<rect class="accent" x="435" y="150" width="140" height="105" rx="12"/><text class="label" x="505.0" y="181" text-anchor="middle">Embedding</text><text class="tiny" x="505.0" y="207" text-anchor="middle">[B,T,D]</text>
+<path class="line" d="M575 202 L625 202"/>
+<rect class="muted" x="625" y="150" width="140" height="105" rx="12"/><text class="label" x="695.0" y="181" text-anchor="middle">Transformer ×L</text><text class="tiny" x="695.0" y="207" text-anchor="middle">[B,T,D]</text>
+<path class="line" d="M765 202 L815 202"/>
+<rect class="box" x="815" y="150" width="140" height="105" rx="12"/><text class="label" x="885.0" y="181" text-anchor="middle">LM head</text><text class="tiny" x="885.0" y="207" text-anchor="middle">[B,T,V]</text>
+<path class="line" d="M955 202 L1005 202"/>
+<rect class="warm" x="1005" y="150" width="140" height="105" rx="12"/><text class="label" x="1075.0" y="181" text-anchor="middle">Decoder</text><text class="tiny" x="1075.0" y="207" text-anchor="middle">next ID</text>
+<path class="line" d="M1075 255 L1075 360"/>
+<rect class="accent" x="935" y="360" width="280" height="95" rx="12"/><text class="label" x="1075.0" y="391" text-anchor="middle">Append token</text><text class="tiny" x="1075.0" y="417" text-anchor="middle">context length T → T+1</text>
+<path class="line" d="M935 407 L125 407"/>
+<rect class="muted" x="55" y="360" width="185" height="95" rx="12"/><text class="label" x="147.5" y="391" text-anchor="middle">Repeat forward</text><text class="tiny" x="147.5" y="417" text-anchor="middle">weights unchanged</text>
+<text class="note" x="600" y="646" text-anchor="middle">Shapes are conceptual; B=batch, T=sequence, D=model width, V=vocabulary.</text>
+</svg>

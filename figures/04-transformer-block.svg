@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">Pre-norm Transformer block</title><desc id="desc">A decoder block applies normalization, causal attention, residual addition, then normalization, MLP, and another residual addition.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L0,6 L9,3 z" fill="#24364b"/></marker>
+    <style>
+      .bg{fill:#fbfcfe} .box{fill:#eef4fb;stroke:#315a84;stroke-width:2} .accent{fill:#e8f6ef;stroke:#28755a;stroke-width:2}
+      .warm{fill:#fff3e4;stroke:#9a5c13;stroke-width:2} .muted{fill:#f4f1f8;stroke:#6a5681;stroke-width:2}
+      .line{fill:none;stroke:#24364b;stroke-width:2.4;marker-end:url(#arrow)} .dash{fill:none;stroke:#56697d;stroke-width:2;stroke-dasharray:8 6;marker-end:url(#arrow)}
+      .title{font:700 30px system-ui,sans-serif;fill:#172536} .label{font:600 19px system-ui,sans-serif;fill:#172536} .small{font:16px system-ui,sans-serif;fill:#33475b}
+      .tiny{font:14px ui-monospace,monospace;fill:#33475b} .math{font:17px ui-monospace,monospace;fill:#172536} .note{font:italic 15px system-ui,sans-serif;fill:#56697d}
+    </style>
+  </defs><rect class="bg" width="1200" height="675"/><text class="title" x="56" y="55">Pre-norm Transformer block</text>
+<rect class="accent" x="60" y="135" width="190" height="80" rx="12"/><text class="label" x="155.0" y="166" text-anchor="middle">Residual stream</text><text class="tiny" x="155.0" y="192" text-anchor="middle">x: [B,T,D]</text>
+<rect class="box" x="340" y="120" width="200" height="90" rx="12"/><text class="label" x="440.0" y="151" text-anchor="middle">RMSNorm</text><text class="tiny" x="440.0" y="177" text-anchor="middle">same shape</text>
+<rect class="warm" x="630" y="120" width="220" height="90" rx="12"/><text class="label" x="740.0" y="151" text-anchor="middle">Causal attention</text><text class="tiny" x="740.0" y="177" text-anchor="middle">[B,T,D]</text>
+<rect class="accent" x="930" y="120" width="190" height="90" rx="12"/><text class="label" x="1025.0" y="151" text-anchor="middle">Add</text><text class="tiny" x="1025.0" y="177" text-anchor="middle">x + attn</text>
+<rect class="box" x="930" y="330" width="190" height="90" rx="12"/><text class="label" x="1025.0" y="361" text-anchor="middle">RMSNorm</text><text class="tiny" x="1025.0" y="387" text-anchor="middle">same shape</text>
+<rect class="warm" x="630" y="330" width="220" height="90" rx="12"/><text class="label" x="740.0" y="361" text-anchor="middle">SwiGLU MLP</text><text class="tiny" x="740.0" y="387" text-anchor="middle">D → M → D</text>
+<rect class="accent" x="340" y="330" width="200" height="90" rx="12"/><text class="label" x="440.0" y="361" text-anchor="middle">Add</text><text class="tiny" x="440.0" y="387" text-anchor="middle">stream + mlp</text>
+<rect class="muted" x="60" y="330" width="190" height="90" rx="12"/><text class="label" x="155.0" y="361" text-anchor="middle">Block output</text><text class="tiny" x="155.0" y="387" text-anchor="middle">[B,T,D]</text>
+<path class="line" d="M250 175 L340 165"/>
+<path class="line" d="M540 165 L630 165"/>
+<path class="line" d="M850 165 L930 165"/>
+<path class="line" d="M1025 210 L1025 330"/>
+<path class="line" d="M930 375 L850 375"/>
+<path class="line" d="M630 375 L540 375"/>
+<path class="line" d="M340 375 L250 375"/>
+<path class="dash" d="M155 215 L155 270 L1025 270 L1025 210"/>
+<path class="dash" d="M1025 420 L1025 495 L440 495 L440 420"/>
+<text class="math" x="600" y="555" text-anchor="middle">Pre-norm decoder block; both sublayers update one persistent residual stream</text>
+<text class="note" x="600" y="646" text-anchor="middle">Dashed paths are identity residual connections.</text>
+</svg>

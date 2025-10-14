@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">Distributed parallelism axes</title><desc id="desc">Data, tensor, pipeline, and state sharding divide different dimensions of training work and communication.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L0,6 L9,3 z" fill="#24364b"/></marker>
+    <style>
+      .bg{fill:#fbfcfe} .box{fill:#eef4fb;stroke:#315a84;stroke-width:2} .accent{fill:#e8f6ef;stroke:#28755a;stroke-width:2}
+      .warm{fill:#fff3e4;stroke:#9a5c13;stroke-width:2} .muted{fill:#f4f1f8;stroke:#6a5681;stroke-width:2}
+      .line{fill:none;stroke:#24364b;stroke-width:2.4;marker-end:url(#arrow)} .dash{fill:none;stroke:#56697d;stroke-width:2;stroke-dasharray:8 6;marker-end:url(#arrow)}
+      .title{font:700 30px system-ui,sans-serif;fill:#172536} .label{font:600 19px system-ui,sans-serif;fill:#172536} .small{font:16px system-ui,sans-serif;fill:#33475b}
+      .tiny{font:14px ui-monospace,monospace;fill:#33475b} .math{font:17px ui-monospace,monospace;fill:#172536} .note{font:italic 15px system-ui,sans-serif;fill:#56697d}
+    </style>
+  </defs><rect class="bg" width="1200" height="675"/><text class="title" x="56" y="55">Distributed parallelism axes</text>
+<rect class="box" x="50" y="120" width="250" height="100" rx="12"/><text class="label" x="175.0" y="151" text-anchor="middle">Data parallel</text><text class="tiny" x="175.0" y="177" text-anchor="middle">replicate θ</text><text class="tiny" x="175.0" y="198" text-anchor="middle">shard batches</text>
+<rect class="warm" x="345" y="120" width="250" height="100" rx="12"/><text class="label" x="470.0" y="151" text-anchor="middle">Tensor parallel</text><text class="tiny" x="470.0" y="177" text-anchor="middle">shard matrix axes</text><text class="tiny" x="470.0" y="198" text-anchor="middle">collective each layer</text>
+<rect class="accent" x="640" y="120" width="250" height="100" rx="12"/><text class="label" x="765.0" y="151" text-anchor="middle">Pipeline parallel</text><text class="tiny" x="765.0" y="177" text-anchor="middle">shard layer ranges</text><text class="tiny" x="765.0" y="198" text-anchor="middle">send activations</text>
+<rect class="muted" x="935" y="120" width="215" height="100" rx="12"/><text class="label" x="1042.5" y="151" text-anchor="middle">ZeRO / FSDP</text><text class="tiny" x="1042.5" y="177" text-anchor="middle">shard state</text><text class="tiny" x="1042.5" y="198" text-anchor="middle">gather as needed</text>
+<rect class="box" x="90" y="355" width="180" height="80" rx="12"/><text class="label" x="180.0" y="386" text-anchor="middle">Rank 0</text><text class="tiny" x="180.0" y="412" text-anchor="middle">batch A</text>
+<rect class="box" x="365" y="355" width="180" height="80" rx="12"/><text class="label" x="455.0" y="386" text-anchor="middle">Rank 1</text><text class="tiny" x="455.0" y="412" text-anchor="middle">matrix shard</text>
+<rect class="box" x="640" y="355" width="180" height="80" rx="12"/><text class="label" x="730.0" y="386" text-anchor="middle">Stage 0</text><text class="tiny" x="730.0" y="412" text-anchor="middle">layers 0…15</text>
+<rect class="box" x="915" y="355" width="180" height="80" rx="12"/><text class="label" x="1005.0" y="386" text-anchor="middle">Stage 1</text><text class="tiny" x="1005.0" y="412" text-anchor="middle">layers 16…31</text>
+<path class="line" d="M270 395 L365 395"/>
+<path class="line" d="M545 395 L640 395"/>
+<path class="line" d="M820 395 L915 395"/>
+<text class="small" x="318" y="375" text-anchor="middle">all-reduce</text>
+<text class="small" x="592" y="375" text-anchor="middle">activation</text>
+<text class="small" x="868" y="375" text-anchor="middle">send/recv</text>
+<text class="math" x="600" y="520" text-anchor="middle">Hybrid example: DP=2 × TP=2 × PP=2 → world size 8</text>
+<text class="note" x="600" y="646" text-anchor="middle">Every sharding boundary implies a specific tensor and collective; account for both.</text>
+</svg>

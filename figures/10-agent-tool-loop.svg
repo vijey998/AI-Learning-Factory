@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">Bounded agent and tool loop</title><desc id="desc">A planner emits validated tool calls, an authorized executor returns observations, and a stop policy bounds retries.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L0,6 L9,3 z" fill="#24364b"/></marker>
+    <style>
+      .bg{fill:#fbfcfe} .box{fill:#eef4fb;stroke:#315a84;stroke-width:2} .accent{fill:#e8f6ef;stroke:#28755a;stroke-width:2}
+      .warm{fill:#fff3e4;stroke:#9a5c13;stroke-width:2} .muted{fill:#f4f1f8;stroke:#6a5681;stroke-width:2}
+      .line{fill:none;stroke:#24364b;stroke-width:2.4;marker-end:url(#arrow)} .dash{fill:none;stroke:#56697d;stroke-width:2;stroke-dasharray:8 6;marker-end:url(#arrow)}
+      .title{font:700 30px system-ui,sans-serif;fill:#172536} .label{font:600 19px system-ui,sans-serif;fill:#172536} .small{font:16px system-ui,sans-serif;fill:#33475b}
+      .tiny{font:14px ui-monospace,monospace;fill:#33475b} .math{font:17px ui-monospace,monospace;fill:#172536} .note{font:italic 15px system-ui,sans-serif;fill:#56697d}
+    </style>
+  </defs><rect class="bg" width="1200" height="675"/><text class="title" x="56" y="55">Bounded agent and tool loop</text>
+<rect class="warm" x="55" y="120" width="185" height="90" rx="12"/><text class="label" x="147.5" y="151" text-anchor="middle">Goal</text><text class="tiny" x="147.5" y="177" text-anchor="middle">task + constraints</text>
+<rect class="box" x="295" y="120" width="185" height="90" rx="12"/><text class="label" x="387.5" y="151" text-anchor="middle">Planner</text><text class="tiny" x="387.5" y="177" text-anchor="middle">bounded steps</text>
+<rect class="accent" x="535" y="120" width="185" height="90" rx="12"/><text class="label" x="627.5" y="151" text-anchor="middle">Tool call</text><text class="tiny" x="627.5" y="177" text-anchor="middle">schema args</text>
+<rect class="muted" x="775" y="120" width="185" height="90" rx="12"/><text class="label" x="867.5" y="151" text-anchor="middle">Executor</text><text class="tiny" x="867.5" y="177" text-anchor="middle">auth + idempotency</text>
+<rect class="warm" x="1015" y="120" width="140" height="90" rx="12"/><text class="label" x="1085.0" y="151" text-anchor="middle">Observation</text><text class="tiny" x="1085.0" y="177" text-anchor="middle">typed result</text>
+<path class="line" d="M240 165 L295 165"/>
+<path class="line" d="M480 165 L535 165"/>
+<path class="line" d="M720 165 L775 165"/>
+<path class="line" d="M960 165 L1015 165"/>
+<path class="line" d="M1085 210 L1085 340"/>
+<rect class="box" x="920" y="340" width="235" height="90" rx="12"/><text class="label" x="1037.5" y="371" text-anchor="middle">Validate / stop?</text><text class="tiny" x="1037.5" y="397" text-anchor="middle">success, retry, abstain</text>
+<path class="line" d="M920 385 L390 385"/>
+<rect class="accent" x="295" y="340" width="190" height="90" rx="12"/><text class="label" x="390.0" y="371" text-anchor="middle">Update state</text><text class="tiny" x="390.0" y="397" text-anchor="middle">provenance + expiry</text>
+<path class="line" d="M390 340 L390 210"/>
+<text class="small" x="650" y="365" text-anchor="middle">bounded retry</text>
+<text class="math" x="600" y="510" text-anchor="middle">Policy limits: max steps, max cost, allowed tools, timeout</text>
+<text class="small" x="600" y="550" text-anchor="middle">A tool result is untrusted input; validate before state mutation</text>
+<text class="note" x="600" y="646" text-anchor="middle">Separate model proposals from validation, authorization, execution, and persistence.</text>
+</svg>

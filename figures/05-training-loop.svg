@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">One reproducible training step</title><desc id="desc">A batch flows through forward computation, loss, backpropagation, update, checkpoint state, and the next step.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L0,6 L9,3 z" fill="#24364b"/></marker>
+    <style>
+      .bg{fill:#fbfcfe} .box{fill:#eef4fb;stroke:#315a84;stroke-width:2} .accent{fill:#e8f6ef;stroke:#28755a;stroke-width:2}
+      .warm{fill:#fff3e4;stroke:#9a5c13;stroke-width:2} .muted{fill:#f4f1f8;stroke:#6a5681;stroke-width:2}
+      .line{fill:none;stroke:#24364b;stroke-width:2.4;marker-end:url(#arrow)} .dash{fill:none;stroke:#56697d;stroke-width:2;stroke-dasharray:8 6;marker-end:url(#arrow)}
+      .title{font:700 30px system-ui,sans-serif;fill:#172536} .label{font:600 19px system-ui,sans-serif;fill:#172536} .small{font:16px system-ui,sans-serif;fill:#33475b}
+      .tiny{font:14px ui-monospace,monospace;fill:#33475b} .math{font:17px ui-monospace,monospace;fill:#172536} .note{font:italic 15px system-ui,sans-serif;fill:#56697d}
+    </style>
+  </defs><rect class="bg" width="1200" height="675"/><text class="title" x="56" y="55">One reproducible training step</text>
+<rect class="warm" x="70" y="130" width="190" height="100" rx="12"/><text class="label" x="165.0" y="161" text-anchor="middle">Batch</text><text class="tiny" x="165.0" y="187" text-anchor="middle">tokens + labels</text>
+<path class="line" d="M260 180 L310 180"/>
+<rect class="box" x="310" y="130" width="190" height="100" rx="12"/><text class="label" x="405.0" y="161" text-anchor="middle">Forward</text><text class="tiny" x="405.0" y="187" text-anchor="middle">logits [B,T,V]</text>
+<path class="line" d="M500 180 L550 180"/>
+<rect class="accent" x="550" y="130" width="190" height="100" rx="12"/><text class="label" x="645.0" y="161" text-anchor="middle">Loss</text><text class="tiny" x="645.0" y="187" text-anchor="middle">masked mean CE</text>
+<path class="line" d="M740 180 L790 180"/>
+<rect class="muted" x="790" y="130" width="190" height="100" rx="12"/><text class="label" x="885.0" y="161" text-anchor="middle">Backward</text><text class="tiny" x="885.0" y="187" text-anchor="middle">∂L/∂θ</text>
+<path class="line" d="M980 180 L1030 180"/>
+<rect class="warm" x="1030" y="130" width="130" height="100" rx="12"/><text class="label" x="1095.0" y="161" text-anchor="middle">Update</text><text class="tiny" x="1095.0" y="187" text-anchor="middle">θ ← opt(θ,g)</text>
+<path class="line" d="M1095 230 L1095 370"/>
+<rect class="box" x="870" y="370" width="280" height="90" rx="12"/><text class="label" x="1010.0" y="401" text-anchor="middle">Checkpoint boundary</text><text class="tiny" x="1010.0" y="427" text-anchor="middle">θ + optimizer + RNG + step</text>
+<path class="line" d="M870 415 L165 415"/>
+<rect class="accent" x="70" y="370" width="190" height="90" rx="12"/><text class="label" x="165.0" y="401" text-anchor="middle">Next batch</text><text class="tiny" x="165.0" y="427" text-anchor="middle">schedule advances</text>
+<text class="math" x="600" y="525" text-anchor="middle">zero_grad → forward → loss → backward → clip/check → optimizer.step</text>
+<text class="small" x="600" y="565" text-anchor="middle">Gradient accumulation scales by valid-token count, not blindly by microbatch count</text>
+<text class="note" x="600" y="646" text-anchor="middle">Ordinary inference stops after forward/decoding; it does not update θ.</text>
+</svg>
