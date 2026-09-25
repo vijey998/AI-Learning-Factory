@@ -61,3 +61,7 @@ See [AUTHORING.md](AUTHORING.md) and [templates/chapter.md](templates/chapter.md
 ## Research and AI workflow
 
 The [book plan](BOOK_PLAN.md), [research queue](RESEARCH_QUEUE.md), and [AI-assisted workflow](AI_WORKFLOW.md) document scope, verification, and unresolved questions.
+
+## License
+
+Original code in `code/`, `scripts/`, and `tests/` is [MIT licensed](LICENSE-CODE.md). The coauthored manuscript, figures, lab prose, and generated books remain [all rights reserved](COPYRIGHT.md).

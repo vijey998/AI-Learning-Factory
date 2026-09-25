@@ -25,7 +25,7 @@ python scripts/release_check.py
 
 - Independent human technical and semantic review.
 - Target-device measurements for accelerator- and multi-GPU-specific labs currently labeled as simulations.
-- Author decisions on ISBN, distribution, pricing, and any future public licensing.
-- Authenticated push and release tag on the private GitHub remote.
+- Author decisions on ISBN, distribution, pricing, and any broader licensing of manuscript prose and figures.
+- Release tag for a reviewed publication edition.
 
 These gates are not converted to green status by AI-assisted review or by changing metadata. Their completion requires dated evidence.
