@@ -1,0 +1,808 @@
+{
+  "result": "PASS",
+  "chapters": 80,
+  "reference_entries": 238,
+  "linked_sources": 238,
+  "chapters_with_links": 80,
+  "errors": [],
+  "inventory": [
+    {
+      "chapter": "CH-01",
+      "title": "The LLM in One Picture",
+      "entries": 2,
+      "urls": [
+        "https://arxiv.org/abs/1706.03762",
+        "https://arxiv.org/abs/1409.3215"
+      ]
+    },
+    {
+      "chapter": "CH-02",
+      "title": "Training vs Inference",
+      "entries": 1,
+      "urls": [
+        "https://docs.pytorch.org/docs/stable/notes/autograd"
+      ]
+    },
+    {
+      "chapter": "CH-03",
+      "title": "Anatomy of the Modern LLM Stack",
+      "entries": 3,
+      "urls": [
+        "https://arxiv.org/abs/2309.06180",
+        "https://doi.org/10.1145/3620665.3640366",
+        "https://doi.org/10.1145/1498765.1498785"
+      ]
+    },
+    {
+      "chapter": "CH-04",
+      "title": "Building Our Tiny Laboratory",
+      "entries": 2,
+      "urls": [
+        "https://docs.python.org/3.12/library/venv.html",
+        "https://docs.pytorch.org/docs/stable/notes/autograd"
+      ]
+    },
+    {
+      "chapter": "CH-05",
+      "title": "Tensors and Resource Accounting",
+      "entries": 1,
+      "urls": [
+        "https://numpy.org/"
+      ]
+    },
+    {
+      "chapter": "CH-06",
+      "title": "Geometry and Number Formats",
+      "entries": 2,
+      "urls": [
+        "https://doi.org/10.1109/IEEESTD.2019.8766229",
+        "https://arxiv.org/abs/1710.03740"
+      ]
+    },
+    {
+      "chapter": "CH-07",
+      "title": "Probability, Logits and Loss",
+      "entries": 2,
+      "urls": [
+        "https://doi.org/10.1002/j.1538-7305.1948.tb01338.x",
+        "https://www.deeplearningbook.org/contents/prob.html"
+      ]
+    },
+    {
+      "chapter": "CH-08",
+      "title": "Gradients, Graphs and Autodiff",
+      "entries": 1,
+      "urls": [
+        "https://docs.pytorch.org/docs/stable/notes/autograd"
+      ]
+    },
+    {
+      "chapter": "CH-09",
+      "title": "Linear Layers and Nonlinearities",
+      "entries": 2,
+      "urls": [
+        "https://docs.pytorch.org/docs/stable/generated/torch.nn.Linear.html",
+        "https://docs.pytorch.org/docs/stable/nn.functional.html",
+        "https://arxiv.org/abs/1606.08415"
+      ]
+    },
+    {
+      "chapter": "CH-10",
+      "title": "A Tiny Network, Forward and Backward",
+      "entries": 1,
+      "urls": [
+        "https://docs.pytorch.org/docs/stable/notes/autograd"
+      ]
+    },
+    {
+      "chapter": "CH-11",
+      "title": "Optimization and State",
+      "entries": 3,
+      "urls": [
+        "https://arxiv.org/abs/1412.6980",
+        "https://arxiv.org/abs/1711.05101",
+        "https://docs.pytorch.org/docs/stable/optim.html"
+      ]
+    },
+    {
+      "chapter": "CH-12",
+      "title": "Initialization and Training Stability",
+      "entries": 3,
+      "urls": [
+        "https://proceedings.mlr.press/v9/glorot10a.html",
+        "https://arxiv.org/abs/1502.01852",
+        "https://docs.pytorch.org/docs/stable/generated/torch.nn.utils.clip_grad_norm_.html"
+      ]
+    },
+    {
+      "chapter": "CH-13",
+      "title": "Tokenization Algorithms",
+      "entries": 3,
+      "urls": [
+        "https://aclanthology.org/P16-1162/",
+        "https://aclanthology.org/D18-2012/",
+        "https://research.google/pubs/japanese-and-korean-voice-search/"
+      ]
+    },
+    {
+      "chapter": "CH-14",
+      "title": "Vocabulary and Token IDs",
+      "entries": 1,
+      "urls": [
+        "https://huggingface.co/docs/transformers/tokenizer_summary",
+        "https://huggingface.co/docs/tokenizers/api/added-tokens"
+      ]
+    },
+    {
+      "chapter": "CH-15",
+      "title": "Embedding Matrices and Geometry",
+      "entries": 3,
+      "urls": [
+        "https://docs.pytorch.org/docs/stable/generated/torch.nn.Embedding.html",
+        "https://arxiv.org/abs/1301.3781",
+        "https://aclanthology.org/N18-1202/"
+      ]
+    },
+    {
+      "chapter": "CH-16",
+      "title": "Position and Sequence Order",
+      "entries": 3,
+      "urls": [
+        "https://arxiv.org/abs/1706.03762",
+        "https://aclanthology.org/N18-2074/",
+        "https://arxiv.org/abs/2104.09864"
+      ]
+    },
+    {
+      "chapter": "CH-17",
+      "title": "Sequence Modeling and the Attention Idea",
+      "entries": 3,
+      "urls": [
+        "https://doi.org/10.1207/s15516709cog1402_1",
+        "https://doi.org/10.1162/neco.1997.9.8.1735",
+        "https://arxiv.org/abs/1409.0473"
+      ]
+    },
+    {
+      "chapter": "CH-18",
+      "title": "Queries, Keys, Values and Scaling",
+      "entries": 1,
+      "urls": [
+        "https://arxiv.org/abs/1706.03762"
+      ]
+    },
+    {
+      "chapter": "CH-19",
+      "title": "Causal and Multi-Head Attention",
+      "entries": 2,
+      "urls": [
+        "https://arxiv.org/abs/1706.03762",
+        "https://docs.pytorch.org/docs/stable/generated/torch.nn.functional.scaled_dot_product_attention.html"
+      ]
+    },
+    {
+      "chapter": "CH-20",
+      "title": "Attention Shapes and Compute Cost",
+      "entries": 2,
+      "urls": [
+        "https://arxiv.org/abs/1706.03762",
+        "https://arxiv.org/abs/2205.14135"
+      ]
+    },
+    {
+      "chapter": "CH-21",
+      "title": "Residual Streams and Normalization",
+      "entries": 4,
+      "urls": [
+        "https://arxiv.org/abs/1512.03385",
+        "https://arxiv.org/abs/1607.06450",
+        "https://arxiv.org/abs/1910.07467",
+        "https://arxiv.org/abs/1706.03762"
+      ]
+    },
+    {
+      "chapter": "CH-22",
+      "title": "Feed-Forward Networks and Complete Blocks",
+      "entries": 3,
+      "urls": [
+        "https://arxiv.org/abs/1706.03762",
+        "https://arxiv.org/abs/1606.08415",
+        "https://arxiv.org/abs/2002.05202"
+      ]
+    },
+    {
+      "chapter": "CH-23",
+      "title": "Stacking, Vocabulary Projection and Tying",
+      "entries": 2,
+      "urls": [
+        "https://arxiv.org/abs/1608.05859",
+        "https://arxiv.org/abs/1611.01462"
+      ]
+    },
+    {
+      "chapter": "CH-24",
+      "title": "Build Our GPT From Scratch",
+      "entries": 3,
+      "urls": [
+        "https://cdn.openai.com/research-covers/language-unsupervised/language_understanding_paper.pdf",
+        "https://arxiv.org/abs/1706.03762"
+      ]
+    },
+    {
+      "chapter": "CH-25",
+      "title": "Sequences, Batches and Pretraining",
+      "entries": 2,
+      "urls": [
+        "https://arxiv.org/abs/1706.03762",
+        "https://arxiv.org/abs/2005.14165"
+      ]
+    },
+    {
+      "chapter": "CH-26",
+      "title": "The Training Step and Schedule",
+      "entries": 3,
+      "urls": [
+        "https://arxiv.org/abs/1412.6980",
+        "https://arxiv.org/abs/1711.05101",
+        "https://proceedings.mlr.press/v28/pascanu13.html"
+      ]
+    },
+    {
+      "chapter": "CH-27",
+      "title": "Mixed Precision and Checkpoint Anatomy",
+      "entries": 3,
+      "urls": [
+        "https://arxiv.org/abs/1710.03740",
+        "https://arxiv.org/abs/1604.06174"
+      ]
+    },
+    {
+      "chapter": "CH-28",
+      "title": "Debugging and Training Our Tiny Model",
+      "entries": 2,
+      "urls": [
+        "https://www.deeplearningbook.org/"
+      ]
+    },
+    {
+      "chapter": "CH-29",
+      "title": "Transformer Families",
+      "entries": 3,
+      "urls": [
+        "https://arxiv.org/abs/1810.04805",
+        "https://jmlr.org/papers/v21/20-074.html",
+        "https://arxiv.org/abs/2302.13971"
+      ]
+    },
+    {
+      "chapter": "CH-30",
+      "title": "Modern Positions, Heads and MLPs",
+      "entries": 3,
+      "urls": [
+        "https://arxiv.org/abs/2104.09864",
+        "https://arxiv.org/abs/1911.02150",
+        "https://arxiv.org/abs/2305.13245"
+      ]
+    },
+    {
+      "chapter": "CH-31",
+      "title": "Mixture of Experts",
+      "entries": 3,
+      "urls": [
+        "https://arxiv.org/abs/1701.06538",
+        "https://jmlr.org/papers/v23/21-0998.html",
+        "https://arxiv.org/abs/2006.16668"
+      ]
+    },
+    {
+      "chapter": "CH-32",
+      "title": "Alternative Architectures and Real Configs",
+      "entries": 3,
+      "urls": [
+        "https://arxiv.org/abs/2004.05150",
+        "https://arxiv.org/abs/2312.00752",
+        "https://arxiv.org/abs/2307.09288"
+      ]
+    },
+    {
+      "chapter": "CH-33",
+      "title": "Data Sources and Cleaning",
+      "entries": 3,
+      "urls": [
+        "https://arxiv.org/abs/2107.06499",
+        "https://arxiv.org/abs/2104.08758",
+        "https://arxiv.org/abs/2306.01116"
+      ]
+    },
+    {
+      "chapter": "CH-34",
+      "title": "Mixtures, Tokens and Synthetic Data",
+      "entries": 3,
+      "urls": [
+        "https://arxiv.org/abs/2101.00027",
+        "https://arxiv.org/abs/2305.13169",
+        "https://arxiv.org/abs/2202.07646"
+      ]
+    },
+    {
+      "chapter": "CH-35",
+      "title": "Evaluation and Meaningful Experiments",
+      "entries": 3,
+      "urls": [
+        "https://arxiv.org/abs/2211.09110",
+        "https://aclanthology.org/P18-1128/",
+        "https://arxiv.org/abs/1810.03993"
+      ]
+    },
+    {
+      "chapter": "CH-36",
+      "title": "Scaling Laws",
+      "entries": 3,
+      "urls": [
+        "https://arxiv.org/abs/2001.08361",
+        "https://arxiv.org/abs/2203.15556",
+        "https://arxiv.org/abs/2501.18107"
+      ]
+    },
+    {
+      "chapter": "CH-37",
+      "title": "Pretraining, Continued Pretraining and SFT",
+      "entries": 3,
+      "urls": [
+        "https://arxiv.org/abs/2203.02155",
+        "https://arxiv.org/abs/2109.01652",
+        "https://huggingface.co/docs/transformers/chat_templating"
+      ]
+    },
+    {
+      "chapter": "CH-38",
+      "title": "Parameter-Efficient Adaptation",
+      "entries": 4,
+      "urls": [
+        "https://arxiv.org/abs/1902.00751",
+        "https://arxiv.org/abs/2101.00190",
+        "https://arxiv.org/abs/2106.09685",
+        "https://arxiv.org/abs/2305.14314"
+      ]
+    },
+    {
+      "chapter": "CH-39",
+      "title": "Preferences and Reinforcement Learning",
+      "entries": 4,
+      "urls": [
+        "https://arxiv.org/abs/1706.03741",
+        "https://arxiv.org/abs/1707.06347",
+        "https://arxiv.org/abs/2203.02155",
+        "https://arxiv.org/abs/2305.18290"
+      ]
+    },
+    {
+      "chapter": "CH-40",
+      "title": "Reasoning, Test-Time Compute and Distillation",
+      "entries": 4,
+      "urls": [
+        "https://arxiv.org/abs/2203.11171",
+        "https://arxiv.org/abs/1503.02531",
+        "https://arxiv.org/abs/2110.14168",
+        "https://arxiv.org/abs/2410.15115"
+      ]
+    },
+    {
+      "chapter": "CH-41",
+      "title": "Why GPUs and How They Execute",
+      "entries": 2,
+      "urls": [
+        "https://docs.nvidia.com/cuda/cuda-c-programming-guide/",
+        "https://docs.nvidia.com/deeplearning/performance/dl-performance-gpu-background/index.html"
+      ]
+    },
+    {
+      "chapter": "CH-42",
+      "title": "Memory Hierarchy and Movement",
+      "entries": 2,
+      "urls": [
+        "https://docs.nvidia.com/cuda/cuda-c-best-practices-guide/",
+        "https://docs.nvidia.com/cuda/cuda-c-programming-guide/#memory-hierarchy"
+      ]
+    },
+    {
+      "chapter": "CH-43",
+      "title": "Throughput, Intensity and Rooflines",
+      "entries": 2,
+      "urls": [
+        "https://doi.org/10.1145/1498765.1498785",
+        "https://docs.nvidia.com/nsight-compute/ProfilingGuide/index.html#roofline-charts"
+      ]
+    },
+    {
+      "chapter": "CH-44",
+      "title": "Profiling Transformer Bottlenecks",
+      "entries": 3,
+      "urls": [
+        "https://docs.nvidia.com/nsight-systems/UserGuide/",
+        "https://docs.nvidia.com/nsight-compute/ProfilingGuide/",
+        "https://pytorch.org/docs/stable/profiler.html"
+      ]
+    },
+    {
+      "chapter": "CH-45",
+      "title": "Kernels, GEMM and Tiling",
+      "entries": 3,
+      "urls": [
+        "https://docs.nvidia.com/cuda/cuda-c-programming-guide/",
+        "https://docs.nvidia.com/cuda/parallel-thread-execution/",
+        "https://docs.nvidia.com/cutlass/"
+      ]
+    },
+    {
+      "chapter": "CH-46",
+      "title": "CUDA, Triton and CUTLASS",
+      "entries": 4,
+      "urls": [
+        "https://docs.nvidia.com/cuda/cuda-c-programming-guide/",
+        "https://triton-lang.org/main/getting-started/tutorials/",
+        "https://docs.nvidia.com/cutlass/",
+        "https://docs.nvidia.com/nsight-compute/"
+      ]
+    },
+    {
+      "chapter": "CH-47",
+      "title": "Graphs, Compilers and Runtimes",
+      "entries": 4,
+      "urls": [
+        "https://docs.pytorch.org/docs/stable/torch.compiler_dynamo_overview.html",
+        "https://docs.pytorch.org/docs/stable/torch.compiler.html",
+        "https://docs.pytorch.org/docs/stable/fx.html",
+        "https://docs.pytorch.org/docs/stable/torch.compiler_inductor.html"
+      ]
+    },
+    {
+      "chapter": "CH-48",
+      "title": "CUDA Graphs and Execution Overhead",
+      "entries": 3,
+      "urls": [
+        "https://docs.nvidia.com/cuda/cuda-c-programming-guide/#cuda-graphs",
+        "https://docs.nvidia.com/cuda/cuda-runtime-api/group__CUDART__GRAPH.html",
+        "https://docs.pytorch.org/docs/stable/notes/cuda.html#cuda-graphs"
+      ]
+    },
+    {
+      "chapter": "CH-49",
+      "title": "Load Weights and Trace a Forward Pass",
+      "entries": 3,
+      "urls": [
+        "https://docs.pytorch.org/docs/stable/generated/torch.autograd.grad_mode.inference_mode.html",
+        "https://huggingface.co/docs/transformers/main/en/models",
+        "https://huggingface.co/docs/transformers/main/en/models#loading-models"
+      ]
+    },
+    {
+      "chapter": "CH-50",
+      "title": "Prefill, Decode and KV Cache",
+      "entries": 3,
+      "urls": [
+        "https://arxiv.org/abs/1706.03762",
+        "https://arxiv.org/abs/2305.13245",
+        "https://huggingface.co/docs/transformers/main/en/cache_explanation"
+      ]
+    },
+    {
+      "chapter": "CH-51",
+      "title": "Sampling and Decoding Policies",
+      "entries": 3,
+      "urls": [
+        "https://arxiv.org/abs/1904.09751",
+        "https://huggingface.co/docs/transformers/main/en/main_classes/text_generation",
+        "https://huggingface.co/docs/transformers/main/en/generation_strategies"
+      ]
+    },
+    {
+      "chapter": "CH-52",
+      "title": "Inference Memory and Latency Accounting",
+      "entries": 3,
+      "urls": [
+        "https://mlcommons.org/benchmarks/inference-datacenter/",
+        "https://arxiv.org/abs/2309.06180",
+        "https://docs.vllm.ai/en/latest/"
+      ]
+    },
+    {
+      "chapter": "CH-53",
+      "title": "FlashAttention and Paged KV Memory",
+      "entries": 4,
+      "urls": [
+        "https://arxiv.org/abs/2205.14135",
+        "https://arxiv.org/abs/2307.08691",
+        "https://arxiv.org/abs/2309.06180",
+        "https://docs.vllm.ai/"
+      ]
+    },
+    {
+      "chapter": "CH-54",
+      "title": "Caching, Batching and Prefill Scheduling",
+      "entries": 4,
+      "urls": [
+        "https://www.usenix.org/conference/osdi22/presentation/yu",
+        "https://arxiv.org/abs/2309.06180",
+        "https://arxiv.org/abs/2403.02310",
+        "https://docs.vllm.ai/en/latest/features/automatic_prefix_caching.html"
+      ]
+    },
+    {
+      "chapter": "CH-55",
+      "title": "Speculative Decoding and Dynamic Execution",
+      "entries": 3,
+      "urls": [
+        "https://arxiv.org/abs/2211.17192",
+        "https://arxiv.org/abs/2302.01318",
+        "https://docs.nvidia.com/cuda/cuda-c-programming-guide/#cuda-graphs"
+      ]
+    },
+    {
+      "chapter": "CH-56",
+      "title": "Quantization Across the Inference Path",
+      "entries": 4,
+      "urls": [
+        "https://arxiv.org/abs/2210.17323",
+        "https://arxiv.org/abs/2306.00978",
+        "https://arxiv.org/abs/2211.10438",
+        "https://www.opencompute.org/documents/ocp-8-bit-floating-point-specification-ofp8-revision-1-0-2023-06-20-pdf",
+        "https://github.com/ggml-org/llama.cpp"
+      ]
+    },
+    {
+      "chapter": "CH-57",
+      "title": "Parallel Training Strategies",
+      "entries": 3,
+      "urls": [
+        "https://docs.pytorch.org/tutorials/intermediate/FSDP_tutorial.html",
+        "https://arxiv.org/abs/1910.02054",
+        "https://docs.pytorch.org/docs/stable/generated/torch.nn.parallel.DistributedDataParallel.html"
+      ]
+    },
+    {
+      "chapter": "CH-58",
+      "title": "Partitioning Model Computation",
+      "entries": 3,
+      "urls": [
+        "https://arxiv.org/abs/1909.08053",
+        "https://arxiv.org/abs/1811.06965",
+        "https://arxiv.org/abs/2006.16668"
+      ]
+    },
+    {
+      "chapter": "CH-59",
+      "title": "Collectives and Interconnects",
+      "entries": 3,
+      "urls": [
+        "https://docs.nvidia.com/deeplearning/nccl/user-guide/docs/usage/collectives.html",
+        "https://docs.nvidia.com/cuda/gpudirect-rdma/",
+        "https://doi.org/10.1016/j.jpdc.2009.05.002"
+      ]
+    },
+    {
+      "chapter": "CH-60",
+      "title": "Distributed Execution and Failure Recovery",
+      "entries": 3,
+      "urls": [
+        "https://docs.pytorch.org/docs/stable/distributed.html",
+        "https://docs.pytorch.org/docs/stable/distributed.checkpoint.html",
+        "https://docs.nvidia.com/deeplearning/nccl/user-guide/docs/troubleshooting.html"
+      ]
+    },
+    {
+      "chapter": "CH-61",
+      "title": "Anatomy of an Inference Server",
+      "entries": 2,
+      "urls": [
+        "https://docs.vllm.ai/en/latest/design/arch_overview.html",
+        "https://arxiv.org/abs/2309.06180"
+      ]
+    },
+    {
+      "chapter": "CH-62",
+      "title": "Tenants, Models and Residency",
+      "entries": 2,
+      "urls": [
+        "https://docs.nvidia.com/deeplearning/triton-inference-server/user-guide/docs/user_guide/model_management.html",
+        "https://docs.nvidia.com/cuda/cuda-c-best-practices-guide/"
+      ]
+    },
+    {
+      "chapter": "CH-63",
+      "title": "Disaggregation and Runtime Comparisons",
+      "entries": 4,
+      "urls": [
+        "https://docs.vllm.ai/",
+        "https://arxiv.org/abs/2309.06180",
+        "https://nvidia.github.io/TensorRT-LLM/",
+        "https://github.com/ggml-org/llama.cpp"
+      ]
+    },
+    {
+      "chapter": "CH-64",
+      "title": "Production Serving and GPU Clusters",
+      "entries": 3,
+      "urls": [
+        "https://opentelemetry.io/docs/specs/",
+        "https://kubernetes.io/docs/concepts/extend-kubernetes/compute-storage-net/device-plugins/",
+        "https://docs.nvidia.com/datacenter/dcgm/latest/"
+      ]
+    },
+    {
+      "chapter": "CH-65",
+      "title": "CPU and Edge Inference",
+      "entries": 3,
+      "urls": [
+        "https://github.com/ggml-org/llama.cpp",
+        "https://www.intel.com/content/www/us/en/docs/intrinsics-guide/index.html",
+        "https://arm-software.github.io/acle/"
+      ]
+    },
+    {
+      "chapter": "CH-66",
+      "title": "Hybrid Memory and Local Loading",
+      "entries": 3,
+      "urls": [
+        "https://docs.nvidia.com/cuda/cuda-c-programming-guide/index.html#unified-memory-programming",
+        "https://github.com/ggml-org/ggml/blob/master/docs/gguf.md",
+        "https://man7.org/linux/man-pages/man2/mmap.2.html"
+      ]
+    },
+    {
+      "chapter": "CH-67",
+      "title": "Local Runtimes and Accelerators",
+      "entries": 3,
+      "urls": [
+        "https://github.com/ggml-org/llama.cpp",
+        "https://docs.openvino.ai/",
+        "https://github.com/openvinotoolkit/openvino.genai"
+      ]
+    },
+    {
+      "chapter": "CH-68",
+      "title": "Packaging, Power and Thermal Limits",
+      "entries": 3,
+      "urls": [
+        "https://csrc.nist.gov/pubs/sp/800/218/final",
+        "https://arxiv.org/abs/1503.02531",
+        "https://spdx.github.io/spdx-spec/"
+      ]
+    },
+    {
+      "chapter": "CH-69",
+      "title": "Embeddings, Contrastive Learning and Vector Indexes",
+      "entries": 5,
+      "urls": [
+        "https://aclanthology.org/D19-1410/",
+        "https://aclanthology.org/2020.emnlp-main.550/",
+        "https://doi.org/10.1109/TPAMI.2018.2889473",
+        "https://doi.org/10.1109/TPAMI.2010.57",
+        "https://doi.org/10.1109/TBDATA.2019.2921572"
+      ]
+    },
+    {
+      "chapter": "CH-70",
+      "title": "RAG and Retrieval Quality",
+      "entries": 5,
+      "urls": [
+        "https://proceedings.neurips.cc/paper/2020/hash/6b493230205f780e1bc26945df7481e5-Abstract.html",
+        "https://doi.org/10.1561/1500000019",
+        "https://doi.org/10.1145/3397271.3401075",
+        "https://openreview.net/forum?id=wCu6T5xFjeJ",
+        "https://trec.nist.gov/pubs/trec29/papers/OVERVIEW.DL.pdf"
+      ]
+    },
+    {
+      "chapter": "CH-71",
+      "title": "Memory, Tools and Structured Output",
+      "entries": 3,
+      "urls": [
+        "https://proceedings.neurips.cc/paper_files/paper/2023/hash/d842425e4bf79ba039352da0f658a906-Abstract-Conference.html",
+        "https://openreview.net/forum?id=KmtVD97J43e",
+        "https://json-schema.org/specification-links#2020-12"
+      ]
+    },
+    {
+      "chapter": "CH-72",
+      "title": "Agents and Multi-Model Economics",
+      "entries": 3,
+      "urls": [
+        "https://openreview.net/forum?id=WE_vluYUL-X",
+        "https://proceedings.neurips.cc/paper_files/paper/2023/hash/1b44b878bb782e6954cd888628510e90-Abstract-Conference.html",
+        "https://arxiv.org/abs/2305.05176"
+      ]
+    },
+    {
+      "chapter": "CH-73",
+      "title": "Hidden States, Layers and Attention Heads",
+      "entries": 4,
+      "urls": [
+        "https://transformer-circuits.pub/2021/framework/index.html",
+        "https://aclanthology.org/J22-2003/",
+        "https://proceedings.mlr.press/v97/kornblith19a.html",
+        "https://arxiv.org/abs/2209.11895"
+      ]
+    },
+    {
+      "chapter": "CH-74",
+      "title": "Features, Probes and Mechanisms",
+      "entries": 4,
+      "urls": [
+        "https://arxiv.org/abs/1610.01644",
+        "https://aclanthology.org/D19-1275/",
+        "https://proceedings.neurips.cc/paper_files/paper/2022/hash/6f1d43d5a82a37e89b0665b33bf3a182-Abstract-Conference.html",
+        "https://transformer-circuits.pub/2023/monosemantic-features/index.html"
+      ]
+    },
+    {
+      "chapter": "CH-75",
+      "title": "Steering, Editing and Representation Engineering",
+      "entries": 4,
+      "urls": [
+        "https://arxiv.org/abs/2308.10248",
+        "https://arxiv.org/abs/2310.01405",
+        "https://proceedings.neurips.cc/paper_files/paper/2022/hash/6f1d43d5a82a37e89b0665b33bf3a182-Abstract-Conference.html",
+        "https://openreview.net/forum?id=MkbcAHIYgyS"
+      ]
+    },
+    {
+      "chapter": "CH-76",
+      "title": "Merging, Stitching and Representation Compatibility",
+      "entries": 4,
+      "urls": [
+        "https://proceedings.mlr.press/v162/wortsman22a.html",
+        "https://openreview.net/forum?id=CQsmMYmlP5T",
+        "https://proceedings.neurips.cc/paper/2021/hash/01ded4259d101feb739b06c399e9cd9c-Abstract.html",
+        "https://openreview.net/forum?id=6t0Kwf8-jrj"
+      ]
+    },
+    {
+      "chapter": "CH-77",
+      "title": "Efficient Memory and Adaptive Computation",
+      "entries": 4,
+      "urls": [
+        "https://arxiv.org/abs/1603.08983",
+        "https://aclanthology.org/2020.acl-main.204/",
+        "https://openreview.net/forum?id=NG7sS51zVF",
+        "https://proceedings.neurips.cc/paper_files/paper/2023/hash/6ceefa7b15572587b78ecfcebb2827f8-Abstract-Conference.html"
+      ]
+    },
+    {
+      "chapter": "CH-78",
+      "title": "Routable Intelligence and Neural Handoffs",
+      "entries": 4,
+      "urls": [
+        "https://doi.org/10.1162/neco.1991.3.1.79",
+        "https://arxiv.org/abs/1709.01686",
+        "https://proceedings.neurips.cc/paper/2021/hash/01ded4259d101feb739b06c399e9cd9c-Abstract.html",
+        "https://doi.org/10.1145/3037697.3037698"
+      ]
+    },
+    {
+      "chapter": "CH-79",
+      "title": "Research Design and Reproduction",
+      "entries": 5,
+      "urls": [
+        "https://jmlr.org/papers/v22/20-303.html",
+        "https://ojs.aaai.org/index.php/AAAI/article/view/11503",
+        "https://neurips.cc/public/guides/PaperChecklist",
+        "https://www.acm.org/publications/policies/artifact-review-and-badging-current",
+        "https://doi.org/10.17226/25303"
+      ]
+    },
+    {
+      "chapter": "CH-80",
+      "title": "Evidence, Ablations and Publication",
+      "entries": 6,
+      "urls": [
+        "https://aclanthology.org/D19-1224/",
+        "https://aclanthology.org/P18-1128/",
+        "https://proceedings.neurips.cc/paper/2021/hash/f514cec81cb148559cf475e7426eed5e-Abstract.html",
+        "https://doi.org/10.1080/00031305.2019.1583913",
+        "https://info.arxiv.org/help/submit/index.html",
+        "https://neurips.cc/public/guides/PaperChecklist"
+      ]
+    }
+  ]
+}

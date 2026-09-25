@@ -1,0 +1,1 @@
+{'logits_shape': (1, 4, 64), 'parameters': 47808, 'tied_output': True, 'causal_isolation': True}

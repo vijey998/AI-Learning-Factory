@@ -1,0 +1,2 @@
+1.0 {'counts': [737, 160, 196, 177, 192, 179, 186, 173], 'capacity': 250, 'overflow': 487, 'coefficient_of_variation': 0.7374876270148537, 'assignment_entropy': 1.8857456791974307}
+1.25 {'counts': [737, 160, 196, 177, 192, 179, 186, 173], 'capacity': 313, 'overflow': 424, 'coefficient_of_variation': 0.7374876270148537, 'assignment_entropy': 1.8857456791974307}

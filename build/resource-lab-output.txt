@@ -1,0 +1,8 @@
+Illustrative logits, not outputs of a trained model: [2.0, 1.0, 0.0, -1.0]
+Probabilities: [0.643914, 0.236883, 0.087144, 0.032059]
+Greedy token: blue
+Seeded sample: blue
+Loss when correct token is blue: 0.44019
+BF16 [1024,4096] tensor bytes: 8388608
+Linear [1,128,256] @ [256,1024] FLOPs: 67108864
+KV cache bytes (B=1,T=2048,L=12,Hkv=4,Dh=64,BF16): 25165824

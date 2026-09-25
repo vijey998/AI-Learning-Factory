@@ -1,0 +1,683 @@
+[
+  {
+    "lab": "01",
+    "title": "Tokenizer from scratch",
+    "status": "reference-complete",
+    "execution_mode": "measured-cpu",
+    "seed": 17,
+    "elapsed_seconds": 0.000325,
+    "environment": {
+      "python": "3.12.14",
+      "numpy": "2.3.5",
+      "platform": "Linux-6.18.44-x86_64-with-glibc2.39"
+    },
+    "revision": "record with: git rev-parse HEAD (repository metadata unavailable to portable script)",
+    "input_data": {
+      "source": "deterministic synthetic or inline educational fixture",
+      "license": "project-local educational fixture"
+    },
+    "timing_protocol": {
+      "clock": "time.perf_counter",
+      "device_synchronization": "CPU synchronous",
+      "warmup": "reported by individual timing labs; otherwise not applicable"
+    },
+    "quantity_policy": "Values named measured are wall-clock/array observations; values named estimated or analytic are models.",
+    "result": {
+      "corpus_sha256": "729ae909628e79994b141d1e945b6304166e405cad5d2c07e8d653417a77fbe8",
+      "tokenizer_sha256": "4668ebdc4d720f4d1211655cd13f4a22cfe4a548c8117d43bd7f362526f960c0",
+      "merges": [
+        [
+          "r",
+          "n"
+        ],
+        [
+          " ",
+          "l"
+        ],
+        [
+          " l",
+          "e"
+        ],
+        [
+          " le",
+          "a"
+        ],
+        [
+          " lea",
+          "rn"
+        ],
+        [
+          "i",
+          "n"
+        ],
+        [
+          "in",
+          "y"
+        ],
+        [
+          "iny",
+          " "
+        ],
+        [
+          "t",
+          "iny "
+        ],
+        [
+          "d",
+          "e"
+        ],
+        [
+          "de",
+          "l"
+        ],
+        [
+          "del",
+          "s"
+        ]
+      ],
+      "held_out_pieces": [
+        "tiny ",
+        "λ",
+        " ",
+        "<eos>",
+        " ",
+        "🧠"
+      ],
+      "unicode_round_trip": true,
+      "special_token_atomic": true
+    },
+    "failures": [],
+    "next_experiment": "Repeat on target hardware and compare against this CPU reference."
+  },
+  {
+    "lab": "02",
+    "title": "Micro autograd engine",
+    "status": "reference-complete",
+    "execution_mode": "measured-cpu",
+    "seed": 17,
+    "elapsed_seconds": 0.00014,
+    "environment": {
+      "python": "3.12.14",
+      "numpy": "2.3.5",
+      "platform": "Linux-6.18.44-x86_64-with-glibc2.39"
+    },
+    "revision": "record with: git rev-parse HEAD (repository metadata unavailable to portable script)",
+    "input_data": {
+      "source": "deterministic synthetic or inline educational fixture",
+      "license": "project-local educational fixture"
+    },
+    "timing_protocol": {
+      "clock": "time.perf_counter",
+      "device_synchronization": "CPU synchronous",
+      "warmup": "reported by individual timing labs; otherwise not applicable"
+    },
+    "quantity_policy": "Values named measured are wall-clock/array observations; values named estimated or analytic are models.",
+    "result": {
+      "loss": 16.0,
+      "gradients": [
+        -24.0,
+        16.0,
+        8.0
+      ],
+      "finite_differences": [
+        -23.99999999891378,
+        16.000000002236447,
+        7.999999993124618
+      ],
+      "max_gradient_error": 6.875382041471312e-09,
+      "shared_subexpression_gradients": [
+        10.0,
+        3.0
+      ]
+    },
+    "failures": [],
+    "next_experiment": "Repeat on target hardware and compare against this CPU reference."
+  },
+  {
+    "lab": "03",
+    "title": "Self-attention from scratch",
+    "status": "reference-complete",
+    "execution_mode": "measured-cpu",
+    "seed": 17,
+    "elapsed_seconds": 0.006855,
+    "environment": {
+      "python": "3.12.14",
+      "numpy": "2.3.5",
+      "platform": "Linux-6.18.44-x86_64-with-glibc2.39"
+    },
+    "revision": "record with: git rev-parse HEAD (repository metadata unavailable to portable script)",
+    "input_data": {
+      "source": "deterministic synthetic or inline educational fixture",
+      "license": "project-local educational fixture"
+    },
+    "timing_protocol": {
+      "clock": "time.perf_counter",
+      "device_synchronization": "CPU synchronous",
+      "warmup": "reported by individual timing labs; otherwise not applicable"
+    },
+    "quantity_policy": "Values named measured are wall-clock/array observations; values named estimated or analytic are models.",
+    "result": {
+      "input_shape": [
+        1,
+        5,
+        8
+      ],
+      "output_shape": [
+        1,
+        5,
+        8
+      ],
+      "future_probability_max": 0.0,
+      "prefix_max_difference": 0.0,
+      "causal_invariance": true
+    },
+    "failures": [],
+    "next_experiment": "Repeat on target hardware and compare against this CPU reference."
+  },
+  {
+    "lab": "04",
+    "title": "GPT from scratch",
+    "status": "reference-complete",
+    "execution_mode": "measured-cpu",
+    "seed": 17,
+    "elapsed_seconds": 0.002549,
+    "environment": {
+      "python": "3.12.14",
+      "numpy": "2.3.5",
+      "platform": "Linux-6.18.44-x86_64-with-glibc2.39"
+    },
+    "revision": "record with: git rev-parse HEAD (repository metadata unavailable to portable script)",
+    "input_data": {
+      "source": "deterministic synthetic or inline educational fixture",
+      "license": "project-local educational fixture"
+    },
+    "timing_protocol": {
+      "clock": "time.perf_counter",
+      "device_synchronization": "CPU synchronous",
+      "warmup": "reported by individual timing labs; otherwise not applicable"
+    },
+    "quantity_policy": "Values named measured are wall-clock/array observations; values named estimated or analytic are models.",
+    "result": {
+      "logits_shape": [
+        2,
+        3,
+        32
+      ],
+      "parameters": 4800,
+      "finite": true,
+      "tied_output": true,
+      "causal_isolation": true
+    },
+    "failures": [],
+    "next_experiment": "Repeat on target hardware and compare against this CPU reference."
+  },
+  {
+    "lab": "05",
+    "title": "Train a tiny language model",
+    "status": "reference-complete",
+    "execution_mode": "measured-cpu",
+    "seed": 17,
+    "elapsed_seconds": 0.004117,
+    "environment": {
+      "python": "3.12.14",
+      "numpy": "2.3.5",
+      "platform": "Linux-6.18.44-x86_64-with-glibc2.39"
+    },
+    "revision": "record with: git rev-parse HEAD (repository metadata unavailable to portable script)",
+    "input_data": {
+      "source": "deterministic synthetic or inline educational fixture",
+      "license": "project-local educational fixture"
+    },
+    "timing_protocol": {
+      "clock": "time.perf_counter",
+      "device_synchronization": "CPU synchronous",
+      "warmup": "reported by individual timing labs; otherwise not applicable"
+    },
+    "quantity_policy": "Values named measured are wall-clock/array observations; values named estimated or analytic are models.",
+    "result": {
+      "initial_loss": 1.3862943611198906,
+      "held_out_loss": 0.24623001325976915,
+      "overfit_reduction": 1.1400643478601213,
+      "checkpoint_sha256": "d1f3501af743573a356cd6491b2b023189c0d4eadaa0d40e4e02d77f1d06c52b",
+      "resume_matches": true,
+      "steps": 80,
+      "dtype": "float64"
+    },
+    "failures": [],
+    "next_experiment": "Repeat on target hardware and compare against this CPU reference."
+  },
+  {
+    "lab": "06",
+    "title": "Profile FLOPs and memory",
+    "status": "reference-complete",
+    "execution_mode": "measured-cpu",
+    "seed": 17,
+    "elapsed_seconds": 0.000159,
+    "environment": {
+      "python": "3.12.14",
+      "numpy": "2.3.5",
+      "platform": "Linux-6.18.44-x86_64-with-glibc2.39"
+    },
+    "revision": "record with: git rev-parse HEAD (repository metadata unavailable to portable script)",
+    "input_data": {
+      "source": "deterministic synthetic or inline educational fixture",
+      "license": "project-local educational fixture"
+    },
+    "timing_protocol": {
+      "clock": "time.perf_counter",
+      "device_synchronization": "CPU synchronous",
+      "warmup": "reported by individual timing labs; otherwise not applicable"
+    },
+    "quantity_policy": "Values named measured are wall-clock/array observations; values named estimated or analytic are models.",
+    "result": {
+      "operation": "matmul",
+      "shapes": [
+        [
+          96,
+          128
+        ],
+        [
+          128,
+          64
+        ]
+      ],
+      "analytic_flops": 1572864,
+      "estimated_tensor_bytes": 106496,
+      "warmup_iterations": 1,
+      "measured_iterations": 10,
+      "median_seconds": 1.5407499859065865e-05,
+      "synchronization": "not applicable: CPU NumPy call is synchronous"
+    },
+    "failures": [],
+    "next_experiment": "Repeat on target hardware and compare against this CPU reference."
+  },
+  {
+    "lab": "07",
+    "title": "Simple Triton kernel",
+    "status": "reference-complete",
+    "execution_mode": "simulated-cpu",
+    "seed": 17,
+    "elapsed_seconds": 0.001669,
+    "environment": {
+      "python": "3.12.14",
+      "numpy": "2.3.5",
+      "platform": "Linux-6.18.44-x86_64-with-glibc2.39"
+    },
+    "revision": "record with: git rev-parse HEAD (repository metadata unavailable to portable script)",
+    "input_data": {
+      "source": "deterministic synthetic or inline educational fixture",
+      "license": "project-local educational fixture"
+    },
+    "timing_protocol": {
+      "clock": "time.perf_counter",
+      "device_synchronization": "CPU synchronous",
+      "warmup": "reported by individual timing labs; otherwise not applicable"
+    },
+    "quantity_policy": "Values named measured are wall-clock/array observations; values named estimated or analytic are models.",
+    "result": {
+      "backend": "CPU tiled simulation (not Triton/GPU)",
+      "irregular_elements": 1003,
+      "tile": 37,
+      "max_error": 0.0,
+      "cold_seconds": 9.618300009606173e-05,
+      "warm_median_seconds": 7.603349990858987e-05
+    },
+    "failures": [],
+    "next_experiment": "Repeat on target hardware and compare against this CPU reference."
+  },
+  {
+    "lab": "08",
+    "title": "KV-cached inference",
+    "status": "reference-complete",
+    "execution_mode": "measured-cpu",
+    "seed": 17,
+    "elapsed_seconds": 0.000339,
+    "environment": {
+      "python": "3.12.14",
+      "numpy": "2.3.5",
+      "platform": "Linux-6.18.44-x86_64-with-glibc2.39"
+    },
+    "revision": "record with: git rev-parse HEAD (repository metadata unavailable to portable script)",
+    "input_data": {
+      "source": "deterministic synthetic or inline educational fixture",
+      "license": "project-local educational fixture"
+    },
+    "timing_protocol": {
+      "clock": "time.perf_counter",
+      "device_synchronization": "CPU synchronous",
+      "warmup": "reported by individual timing labs; otherwise not applicable"
+    },
+    "quantity_policy": "Values named measured are wall-clock/array observations; values named estimated or analytic are models.",
+    "result": {
+      "tokens": 5,
+      "cache_entries_per_kind": 5,
+      "position_offsets": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "max_logit_difference": 2.6645352591003757e-15,
+      "equivalent": true
+    },
+    "failures": [],
+    "next_experiment": "Repeat on target hardware and compare against this CPU reference."
+  },
+  {
+    "lab": "09",
+    "title": "Quantize the model",
+    "status": "reference-complete",
+    "execution_mode": "measured-cpu",
+    "seed": 17,
+    "elapsed_seconds": 1.7e-05,
+    "environment": {
+      "python": "3.12.14",
+      "numpy": "2.3.5",
+      "platform": "Linux-6.18.44-x86_64-with-glibc2.39"
+    },
+    "revision": "record with: git rev-parse HEAD (repository metadata unavailable to portable script)",
+    "input_data": {
+      "source": "deterministic synthetic or inline educational fixture",
+      "license": "project-local educational fixture"
+    },
+    "timing_protocol": {
+      "clock": "time.perf_counter",
+      "device_synchronization": "CPU synchronous",
+      "warmup": "reported by individual timing labs; otherwise not applicable"
+    },
+    "quantity_policy": "Values named measured are wall-clock/array observations; values named estimated or analytic are models.",
+    "result": {
+      "scheme": "symmetric int8, group=8",
+      "packed_weight_bytes": 1024,
+      "metadata_bytes": 512,
+      "float_weight_bytes": 4096,
+      "mean_absolute_error": 0.01829329507276256,
+      "measured_float_seconds": 7.160999757616082e-06,
+      "measured_dequantized_seconds": 9.58400005401927e-06,
+      "speedup_claimed": false
+    },
+    "failures": [],
+    "next_experiment": "Repeat on target hardware and compare against this CPU reference."
+  },
+  {
+    "lab": "10",
+    "title": "Continuous-batching inference server",
+    "status": "reference-complete",
+    "execution_mode": "simulated-cpu",
+    "seed": 17,
+    "elapsed_seconds": 2.3e-05,
+    "environment": {
+      "python": "3.12.14",
+      "numpy": "2.3.5",
+      "platform": "Linux-6.18.44-x86_64-with-glibc2.39"
+    },
+    "revision": "record with: git rev-parse HEAD (repository metadata unavailable to portable script)",
+    "input_data": {
+      "source": "deterministic synthetic or inline educational fixture",
+      "license": "project-local educational fixture"
+    },
+    "timing_protocol": {
+      "clock": "time.perf_counter",
+      "device_synchronization": "CPU synchronous",
+      "warmup": "reported by individual timing labs; otherwise not applicable"
+    },
+    "quantity_policy": "Values named measured are wall-clock/array observations; values named estimated or analytic are models.",
+    "result": {
+      "event_count": 14,
+      "tokens_streamed": 6,
+      "peak_active": 2,
+      "capacity": 2,
+      "cancel_cleanup": true,
+      "bounded": true,
+      "events": [
+        [
+          "admit",
+          "a"
+        ],
+        [
+          "admit",
+          "b"
+        ],
+        [
+          "token",
+          "a"
+        ],
+        [
+          "token",
+          "b"
+        ],
+        [
+          "token",
+          "a"
+        ],
+        [
+          "token",
+          "b"
+        ],
+        [
+          "finish",
+          "b"
+        ],
+        [
+          "admit",
+          "cancel"
+        ],
+        [
+          "token",
+          "a"
+        ],
+        [
+          "finish",
+          "a"
+        ],
+        [
+          "cleanup",
+          "cancel"
+        ],
+        [
+          "admit",
+          "d"
+        ],
+        [
+          "token",
+          "d"
+        ],
+        [
+          "finish",
+          "d"
+        ]
+      ]
+    },
+    "failures": [],
+    "next_experiment": "Repeat on target hardware and compare against this CPU reference."
+  },
+  {
+    "lab": "11",
+    "title": "Multi-GPU execution",
+    "status": "reference-complete",
+    "execution_mode": "simulated-cpu",
+    "seed": 17,
+    "elapsed_seconds": 0.000102,
+    "environment": {
+      "python": "3.12.14",
+      "numpy": "2.3.5",
+      "platform": "Linux-6.18.44-x86_64-with-glibc2.39"
+    },
+    "revision": "record with: git rev-parse HEAD (repository metadata unavailable to portable script)",
+    "input_data": {
+      "source": "deterministic synthetic or inline educational fixture",
+      "license": "project-local educational fixture"
+    },
+    "timing_protocol": {
+      "clock": "time.perf_counter",
+      "device_synchronization": "CPU synchronous",
+      "warmup": "reported by individual timing labs; otherwise not applicable"
+    },
+    "quantity_policy": "Values named measured are wall-clock/array observations; values named estimated or analytic are models.",
+    "result": {
+      "workers": 2,
+      "collective": "column-shard then all-gather simulation",
+      "max_reference_error": 0.0,
+      "failure_injected": "worker-1 unavailable",
+      "recovery_matches": true
+    },
+    "failures": [],
+    "next_experiment": "Repeat on target hardware and compare against this CPU reference."
+  },
+  {
+    "lab": "12",
+    "title": "Local quantized deployment",
+    "status": "reference-complete",
+    "execution_mode": "measured-cpu",
+    "seed": 17,
+    "elapsed_seconds": 5.1e-05,
+    "environment": {
+      "python": "3.12.14",
+      "numpy": "2.3.5",
+      "platform": "Linux-6.18.44-x86_64-with-glibc2.39"
+    },
+    "revision": "record with: git rev-parse HEAD (repository metadata unavailable to portable script)",
+    "input_data": {
+      "source": "deterministic synthetic or inline educational fixture",
+      "license": "project-local educational fixture"
+    },
+    "timing_protocol": {
+      "clock": "time.perf_counter",
+      "device_synchronization": "CPU synchronous",
+      "warmup": "reported by individual timing labs; otherwise not applicable"
+    },
+    "quantity_policy": "Values named measured are wall-clock/array observations; values named estimated or analytic are models.",
+    "result": {
+      "manifest": {
+        "format": "numpy-int8-reference-v1",
+        "weights_sha256": "9bfec406600405f465b011750eb46ecd0a66b5ff1e5de9517639dd816fd03cc9",
+        "network_required": false
+      },
+      "bundle_bytes": 384,
+      "cold_start_seconds": 4.4869998419017065e-06,
+      "warm_median_seconds": 1.8129999261873309e-06,
+      "sustained_iterations": 25,
+      "thermal_measurement": "not available in portable CPU reference"
+    },
+    "failures": [],
+    "next_experiment": "Repeat on target hardware and compare against this CPU reference."
+  },
+  {
+    "lab": "13",
+    "title": "Probe hidden representations",
+    "status": "reference-complete",
+    "execution_mode": "measured-cpu",
+    "seed": 17,
+    "elapsed_seconds": 0.0,
+    "environment": {
+      "python": "3.12.14",
+      "numpy": "2.3.5",
+      "platform": "Linux-6.18.44-x86_64-with-glibc2.39"
+    },
+    "revision": "record with: git rev-parse HEAD (repository metadata unavailable to portable script)",
+    "input_data": {
+      "source": "deterministic synthetic or inline educational fixture",
+      "license": "project-local educational fixture"
+    },
+    "timing_protocol": {
+      "clock": "time.perf_counter",
+      "device_synchronization": "CPU synchronous",
+      "warmup": "reported by individual timing labs; otherwise not applicable"
+    },
+    "quantity_policy": "Values named measured are wall-clock/array observations; values named estimated or analytic are models.",
+    "result": {
+      "train_examples": 160,
+      "held_out_examples": 80,
+      "held_out_accuracy": 0.95,
+      "random_label_accuracy": 0.4625,
+      "intervention": "zero feature 0",
+      "intervention_accuracy": 0.6,
+      "interpretation": "Probe predictiveness is evidence of encoded information, not proof of mechanism."
+    },
+    "failures": [],
+    "next_experiment": "Repeat on target hardware and compare against this CPU reference."
+  },
+  {
+    "lab": "14",
+    "title": "Reproduce a paper",
+    "status": "reference-complete",
+    "execution_mode": "measured-cpu",
+    "seed": 17,
+    "elapsed_seconds": 0.0,
+    "environment": {
+      "python": "3.12.14",
+      "numpy": "2.3.5",
+      "platform": "Linux-6.18.44-x86_64-with-glibc2.39"
+    },
+    "revision": "record with: git rev-parse HEAD (repository metadata unavailable to portable script)",
+    "input_data": {
+      "source": "deterministic synthetic or inline educational fixture",
+      "license": "project-local educational fixture"
+    },
+    "timing_protocol": {
+      "clock": "time.perf_counter",
+      "device_synchronization": "CPU synchronous",
+      "warmup": "reported by individual timing labs; otherwise not applicable"
+    },
+    "quantity_policy": "Values named measured are wall-clock/array observations; values named estimated or analytic are models.",
+    "result": {
+      "claim": "stable softmax is invariant to additive logit shifts",
+      "pinned_reference": "NumPy 2.3.5",
+      "seeds": 10,
+      "mean_max_error": 4.616099169574284e-15,
+      "95_percent_ci": [
+        2.909763119197287e-15,
+        6.32243521995128e-15
+      ],
+      "deviations": "CPU NumPy reference, not original accelerator setup",
+      "negative_results": []
+    },
+    "failures": [],
+    "next_experiment": "Repeat on target hardware and compare against this CPU reference."
+  },
+  {
+    "lab": "15",
+    "title": "Original experiment",
+    "status": "reference-complete",
+    "execution_mode": "simulated-cpu",
+    "seed": 17,
+    "elapsed_seconds": 0.0,
+    "environment": {
+      "python": "3.12.14",
+      "numpy": "2.3.5",
+      "platform": "Linux-6.18.44-x86_64-with-glibc2.39"
+    },
+    "revision": "record with: git rev-parse HEAD (repository metadata unavailable to portable script)",
+    "input_data": {
+      "source": "deterministic synthetic or inline educational fixture",
+      "license": "project-local educational fixture"
+    },
+    "timing_protocol": {
+      "clock": "time.perf_counter",
+      "device_synchronization": "CPU synchronous",
+      "warmup": "reported by individual timing labs; otherwise not applicable"
+    },
+    "quantity_policy": "Values named measured are wall-clock/array observations; values named estimated or analytic are models.",
+    "result": {
+      "hypothesis": "difficulty routing can reduce compute at a bounded quality cost",
+      "examples": 400,
+      "router_threshold": 0.55,
+      "mean_quality": 0.8793009622827489,
+      "all_expert_quality": 0.9158103103733022,
+      "mean_compute_units": 2.305,
+      "all_expert_compute_units": 4.0,
+      "quality_delta_95_percent_ci": [
+        -0.04226684987690644,
+        -0.03112330480644196
+      ],
+      "ablations": {
+        "all_cheap_quality": 0.7581031037330215,
+        "all_expert_quality": 0.9158103103733022
+      },
+      "accounting": "Routing cost included as one unit for cheap path; transfer costs are zero in this simulation."
+    },
+    "failures": [],
+    "next_experiment": "Repeat on target hardware and compare against this CPU reference."
+  }
+]
